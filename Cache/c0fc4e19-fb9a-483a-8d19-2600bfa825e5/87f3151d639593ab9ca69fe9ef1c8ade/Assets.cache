@@ -2,7 +2,7 @@
   AssetFiles:
     d93d4f3d-e26f-49c6-a85c-19599bee935e: c0fc4e19-fb9a-483a-8d19-2600bfa825e5/87f3151d639593ab9ca69fe9ef1c8ade/Data/house_base.png
   AssetCurrentFiles:
-    d93d4f3d-e26f-49c6-a85c-19599bee935e: c0fc4e19-fb9a-483a-8d19-2600bfa825e5/87f3151d639593ab9ca69fe9ef1c8ade/Data/house_base.png
+    d93d4f3d-e26f-49c6-a85c-19599bee935e: c0fc4e19-fb9a-483a-8d19-2600bfa825e5/87f3151d639593ab9ca69fe9ef1c8ade/Data/Performance/Medium/house_base.pvr
   Assets:
     - !<FileTexture/d93d4f3d-e26f-49c6-a85c-19599bee935e>
       PackagePath: ""

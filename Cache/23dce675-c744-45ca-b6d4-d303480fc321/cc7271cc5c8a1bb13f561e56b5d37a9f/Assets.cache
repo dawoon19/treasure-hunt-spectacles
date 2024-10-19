@@ -2,7 +2,7 @@
   AssetFiles:
     fe4203a5-42de-4ca3-bd8e-470278a1a8d2: 23dce675-c744-45ca-b6d4-d303480fc321/cc7271cc5c8a1bb13f561e56b5d37a9f/Data/Tree_base.png
   AssetCurrentFiles:
-    fe4203a5-42de-4ca3-bd8e-470278a1a8d2: 23dce675-c744-45ca-b6d4-d303480fc321/cc7271cc5c8a1bb13f561e56b5d37a9f/Data/Tree_base.png
+    fe4203a5-42de-4ca3-bd8e-470278a1a8d2: 23dce675-c744-45ca-b6d4-d303480fc321/cc7271cc5c8a1bb13f561e56b5d37a9f/Data/Performance/Medium/Tree_base.pvr
   Assets:
     - !<FileTexture/fe4203a5-42de-4ca3-bd8e-470278a1a8d2>
       PackagePath: ""

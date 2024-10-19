@@ -2,7 +2,7 @@
   AssetFiles:
     756ef543-66af-40c4-8c43-aedeabf1a8ce: 6b17a805-36e2-42c7-af1f-4abefeb9af31/42b03f98a0b37705cb3512786b098bf0/Data/info_card.png
   AssetCurrentFiles:
-    756ef543-66af-40c4-8c43-aedeabf1a8ce: 6b17a805-36e2-42c7-af1f-4abefeb9af31/42b03f98a0b37705cb3512786b098bf0/Data/info_card.png
+    756ef543-66af-40c4-8c43-aedeabf1a8ce: 6b17a805-36e2-42c7-af1f-4abefeb9af31/42b03f98a0b37705cb3512786b098bf0/Data/Performance/Medium/info_card.pvr
   Assets:
     - !<FileTexture/756ef543-66af-40c4-8c43-aedeabf1a8ce>
       PackagePath: ""

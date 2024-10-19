@@ -296,7 +296,7 @@
             mDefaultVal: 0.500000
             mValues:
               []
-      ShaderPath: 3ac91359-7c7d-46c5-a49d-6cf8dab78e54/f55ae7946d8a821dde94aa815e3de15d/Data/242fadd/beats_material.glsl
+      ShaderPath: 3ac91359-7c7d-46c5-a49d-6cf8dab78e54/de5753b85e99e28cfd3b0681f59affdd/Data/242fadd/beats_material.glsl
       Defines:
         []
       Properties:

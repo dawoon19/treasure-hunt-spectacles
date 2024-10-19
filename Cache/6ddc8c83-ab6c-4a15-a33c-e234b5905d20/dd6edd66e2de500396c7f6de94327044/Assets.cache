@@ -3,7 +3,7 @@
     63195088-03c4-4fda-a5a2-c45ff358ef4f: dd8646db-a3b5-46e0-829c-bb3fde93d237/371fd5535019eb0e8cbc13f4c354954a/Data/Spinning Flower.t3d
     468ef363-690f-4820-81a5-dcad0a5f7ea5: dd8646db-a3b5-46e0-829c-bb3fde93d237/371fd5535019eb0e8cbc13f4c354954a/Data/atlas_0.png
   AssetCurrentFiles:
-    468ef363-690f-4820-81a5-dcad0a5f7ea5: dd8646db-a3b5-46e0-829c-bb3fde93d237/371fd5535019eb0e8cbc13f4c354954a/Data/atlas_0.png
+    468ef363-690f-4820-81a5-dcad0a5f7ea5: dd8646db-a3b5-46e0-829c-bb3fde93d237/371fd5535019eb0e8cbc13f4c354954a/Data/Performance/Medium/atlas_0.pvr
   Assets:
     - !<AnimatedTexture/63195088-03c4-4fda-a5a2-c45ff358ef4f>
       PackagePath: ""
