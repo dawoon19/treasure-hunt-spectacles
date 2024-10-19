@@ -1,0 +1,29 @@
+- !<NativePackageDescriptor/4591be3f-897b-4d47-9913-666fde7f1e4d>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 1
+    patch: 1
+    build: 24092500
+    type: Unset
+  Description: "The Multi Segmentation asset allows you to segment the ground, plants, and sky. It uses a multi-segmentation model which allows you to do one or more segmentations at the same time."
+  SvgIcon: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 1
+  VersionPatch: 0
+  UpdateCheckpoint: 48
+  ExportUid: cae18e7c-8d88-4f8d-a0b6-c2eb5e72877d
+  ComponentUid: 834ef2fd-5c52-4d83-9a47-ae3511e91b23
+  CurrentVisibility: Locked
+  MaxVisibility: Editable
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure/00000000-0000-0000-0000-000000000000>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

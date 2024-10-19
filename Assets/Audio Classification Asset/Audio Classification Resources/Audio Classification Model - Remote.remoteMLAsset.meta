@@ -1,14 +1,14 @@
-- !<AssetImportMetadata/ca044d31-7f2e-475a-8f70-f6eadb2a9388>
+- !<AssetImportMetadata/bf0057bb-1b69-40e2-aaf7-3af7b6717346>
   ImportedAssetIds:
-    RemoteMLAsset: !<reference> c7dd0174-825d-4991-a864-9430bab33b24
+    RemoteMLAsset: !<reference> bb272f1c-197c-4ac3-bbb4-e2ce63ee35d4
   ImporterName: RemoteMLAssetImporter
-  PrimaryAsset: !<reference> c7dd0174-825d-4991-a864-9430bab33b24
+  PrimaryAsset: !<reference> bb272f1c-197c-4ac3-bbb4-e2ce63ee35d4
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     {}
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/49675cb3-5b3b-4fdf-8252-27b39eb85819>
+  ImporterSettings: !<AssetImporterSettings/e10a913d-41c5-43c8-9e1f-6b5bfcacefb9>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

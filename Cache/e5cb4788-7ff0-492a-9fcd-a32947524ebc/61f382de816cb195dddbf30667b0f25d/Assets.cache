@@ -7,7 +7,7 @@
     - !<FileMLAsset/e43091a3-b23a-4339-a856-88dd316ffbf9>
       PackagePath: ""
       Inputs:
-        - !<MLInput/2c2d73d9-2281-474b-84fb-e2a1ad5a08e1>
+        - !<MLInput/3aeacef8-747d-4223-83b8-9a7b9bcb5d3c>
           Name: data
           Shape: {x: 128.000000, y: 256.000000, z: 3.000000}
           Normalizations:
@@ -27,7 +27,7 @@
             rotation: None
           Texture: !<reference> 00000000-0000-0000-0000-000000000000
       Outputs:
-        - !<MLOutput/37a4d566-955a-450d-9f6d-3c748d320fea>
+        - !<MLOutput/e1cb272c-193c-45f3-a592-2198c4a16428>
           Name: output_0
           Shape: {x: 128.000000, y: 256.000000, z: 3.000000}
           Normalizations:

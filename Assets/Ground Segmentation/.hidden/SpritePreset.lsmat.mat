@@ -1,8 +1,8 @@
-- !<Material/fa35235f-ad8f-4264-91c3-9633828c618c>
+- !<Material/b88f92db-068e-4443-9e03-8730d6dc19c1>
   PackagePath: ""
   PassesInfo:
-    - !<own> 6c808525-3665-44f2-a621-d1698bd798b0
-- !<PassInfo/6c808525-3665-44f2-a621-d1698bd798b0>
+    - !<own> 3c0dbe8c-d48e-419b-ad12-29951a191f5c
+- !<PassInfo/3c0dbe8c-d48e-419b-ad12-29951a191f5c>
   DepthWrite: false
   DepthTest: false
   DepthFunction: LessEqual
@@ -33,7 +33,7 @@
     baseTex:
       typeIdx: 9
       value:
-        id: ba624ea2-99ec-45b6-93ff-089d3efdab6b
+        id: b7cd5c56-dcf7-421a-83b6-b718052b02af
         sampler:
           filteringMode: Bilinear
           wrapModeU: ClampToEdge
@@ -66,4 +66,4 @@
     overrideTimeEnabled:
       typeIdx: 0
       value: 0
-  Pass: !<reference> 28a795f8-9569-4783-b242-2f831a8c13e2
+  Pass: !<reference> cd447382-6ce3-4743-bde6-fa08a47c2c3b

@@ -111,7 +111,7 @@
         Port_WorldTangent_N004:
           typeIdx: 4
           value: {x: 0.000000, y: 0.000000, z: 1.000000}
-      PassUiData: !<PassUiData/0beeda85-2f98-4669-8724-2f6f94af83e0>
+      PassUiData: !<PassUiData/ab745deb-3e53-4887-937f-a12b848b4abf>
         ExtraDefines:
           - SC_ENABLE_RT_CASTER
         PassBindings:

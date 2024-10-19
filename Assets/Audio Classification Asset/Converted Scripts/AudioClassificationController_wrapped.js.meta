@@ -1,18 +1,18 @@
-- !<AssetImportMetadata/620d5e44-7632-47ac-a5d4-5104c61c9ec6>
+- !<AssetImportMetadata/0e82e5cb-1bda-4b96-a4cf-6f0cc481f405>
   ImportedAssetIds:
-    JavaScriptAsset: !<reference> 5130029e-e87d-4eff-a9ed-9df7d7e7e068
+    JavaScriptAsset: !<reference> 791fcc50-02e4-4b5c-bdd0-42c4d5941abf
   ImporterName: JavaScriptAssetImporter
-  PrimaryAsset: !<reference> 5130029e-e87d-4eff-a9ed-9df7d7e7e068
+  PrimaryAsset: !<reference> 791fcc50-02e4-4b5c-bdd0-42c4d5941abf
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
-    JavaScriptAsset: !<own> 6f98ae19-2d55-495e-877c-7838be4084d6
+    JavaScriptAsset: !<own> e22a72a4-347c-42f5-b946-2a6c61a81a8d
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/00f79f7e-9c22-46ae-88a6-ffc95e17a833>
+  ImporterSettings: !<AssetImporterSettings/ea9196da-771a-493b-8630-558ee985a086>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptAssetData/6f98ae19-2d55-495e-877c-7838be4084d6>
+- !<ScriptAssetData/e22a72a4-347c-42f5-b946-2a6c61a81a8d>
   SvgIcon: ""
   Description: ""
   InternalVersion: 0

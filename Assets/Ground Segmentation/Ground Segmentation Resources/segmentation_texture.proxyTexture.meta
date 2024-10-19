@@ -1,14 +1,14 @@
-- !<AssetImportMetadata/8c943974-64ef-42e1-8b81-eb37fcf35a98>
+- !<AssetImportMetadata/8cb8b69d-4b1b-4cb7-a9ae-b4b2550d6639>
   ImportedAssetIds:
-    Texture: !<reference> ba624ea2-99ec-45b6-93ff-089d3efdab6b
+    Texture: !<reference> b7cd5c56-dcf7-421a-83b6-b718052b02af
   ImporterName: ProxyTextureImporter
-  PrimaryAsset: !<reference> ba624ea2-99ec-45b6-93ff-089d3efdab6b
+  PrimaryAsset: !<reference> b7cd5c56-dcf7-421a-83b6-b718052b02af
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     {}
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/eeb00341-1981-4eb6-a813-70a15b734f37>
+  ImporterSettings: !<AssetImporterSettings/4be5d3eb-6d5a-486d-a952-5ee0baac5e51>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

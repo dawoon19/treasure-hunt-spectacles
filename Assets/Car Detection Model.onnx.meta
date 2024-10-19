@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/b2aac668-7331-4f04-abd1-96fb02bcc5f9>
+  ImportedAssetIds:
+    FileMLAsset: !<reference> 965774f8-70c3-4f70-a6dc-1451c7e04881
+  ImporterName: FileMLAssetImporter
+  PrimaryAsset: !<reference> 965774f8-70c3-4f70-a6dc-1451c7e04881
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMLAssetImporterSettings/fa54ceb0-2a47-4d5b-abcd-03ab86b09470>
+    Inputs:
+      - !<MLInput/a3ca9e2a-6d86-437e-8e9b-ef2bd2f265a4>
+        Name: data
+        Shape: {x: 128.000000, y: 256.000000, z: 3.000000}
+        Normalizations:
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+        Transformer:
+          stretch: true
+          alignment.horizontal: Center
+          alignment.vertical: Center
+          fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+          flipX: false
+          flipY: false
+          rotation: None
+        Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    Outputs:
+      - !<MLOutput/58aa7c25-b5fb-4b9d-a1f4-4e7916306923>
+        Name: loc
+        Shape: {x: 16.000000, y: 32.000000, z: 4.000000}
+        Normalizations:
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+        InputName: ""
+        OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+      - !<MLOutput/3945d2fc-8810-498b-b237-dd8bd777aed3>
+        Name: cls
+        Shape: {x: 16.000000, y: 32.000000, z: 1.000000}
+        Normalizations:
+          - scale: 1.000000
+            bias: 0.000000
+        InputName: ""
+        OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<SingleCompressionSettings/a67bae6e-5c24-45a9-9cb6-aaf34bcc9ea5>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

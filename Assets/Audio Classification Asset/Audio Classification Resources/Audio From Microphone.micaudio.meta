@@ -1,14 +1,14 @@
-- !<AssetImportMetadata/b0f83780-ecf2-46b7-89fa-47b487caae46>
+- !<AssetImportMetadata/e84aa3f5-62aa-43ad-95d2-5cf95d289d74>
   ImportedAssetIds:
-    MicrophoneAudioTrack: !<reference> 19c2483b-3172-4dad-8cf7-2273247ca19d
+    MicrophoneAudioTrack: !<reference> 3ea96349-9b62-4607-b26b-ef818b79237b
   ImporterName: MicrophoneAudioTrackImporter
-  PrimaryAsset: !<reference> 19c2483b-3172-4dad-8cf7-2273247ca19d
+  PrimaryAsset: !<reference> 3ea96349-9b62-4607-b26b-ef818b79237b
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
     {}
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/ad89978e-5232-4820-a6bf-e28102203df4>
+  ImporterSettings: !<AssetImporterSettings/f84adbf0-ba8a-4d43-99cf-11a776d9ac42>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

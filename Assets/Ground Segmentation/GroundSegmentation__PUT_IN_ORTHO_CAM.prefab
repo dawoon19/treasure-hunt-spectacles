@@ -1,58 +1,26 @@
-- !<ObjectPrefab/34610bf2-b750-4e2f-be8d-c8f8f48aef02>
+- !<ObjectPrefab/9d12a336-9ad3-44d5-98a2-fec7ae747acc>
   PackagePath: ""
   objects:
-    - !<own> fc026914-e7c4-4e60-83d5-48b3218f7409
+    - !<own> 83985422-a81e-4408-b93d-9b338a3e35b6
   LazyLoading: false
   RetainAssets: true
-- !<ScreenTransform/08298d79-80eb-4f18-9994-5a40318aa80b>
+- !<SceneObject/14342061-7802-40d9-a136-dd0131dd9206>
   PrefabRemaps:
     []
-  Name: Screen Transform
+  Name: Ground Segmentation Mask
   Enabled: true
-  IsAdvanced: false
-  Constraints:
-    pinToLeft: false
-    pinToTop: false
-    pinToRight: false
-    pinToBottom: false
-    fixedWidth: false
-    fixedHeight: false
-    deactivatedFixedSprite: false
-    deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
-  Transform:
-    position: {x: 0.000000, y: 0.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  RawMode: true
-  ForceBasic: true
-  Anchor:
-    left: -1.000000
-    bottom: -1.000000
-    right: 1.000000
-    top: 1.000000
-  Offset:
-    left: 0.000000
-    bottom: 0.000000
-    right: 0.000000
-    top: 0.000000
-- !<SceneObject/085162d3-6457-456b-a9a9-3322f173ae5c>
-  PrefabRemaps:
-    []
-  Name: ML Component
-  Enabled: true
-  Layers: 1
+  Layers: 1048576
   LocalTransform:
-    position: {x: 120.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
     rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 1.000000, y: 1.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:
     []
   Components:
-    - !<own> 9900f406-5691-409a-abef-ef17121b935f
-- !<Image/60c70273-b4d2-410a-b510-531b1597554d>
+    - !<own> 9d2cb3d5-f0cc-4ef7-a37b-b402b081ec31
+    - !<own> 149d5489-6f3a-488a-92fa-35275494ac2c
+- !<Image/149d5489-6f3a-488a-92fa-35275494ac2c>
   PrefabRemaps:
     []
   Name: Image 2
@@ -65,11 +33,11 @@
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
   Materials:
-    - !<reference> fa35235f-ad8f-4264-91c3-9633828c618c
+    - !<reference> b88f92db-068e-4443-9e03-8730d6dc19c1
   FlipX: false
   FlipY: false
   Pivot: {x: 0.000000, y: 0.000000}
-- !<MLComponent/9900f406-5691-409a-abef-ef17121b935f>
+- !<MLComponent/2e5156d8-bad7-4e13-8d90-0d4a1cfa2301>
   PrefabRemaps:
     []
   Name: ML Component
@@ -96,7 +64,7 @@
         flipX: false
         flipY: false
         rotation: None
-      Texture: !<reference> 996c6f4e-b2ad-4117-9e3e-3db82e6e97f5
+      Texture: !<reference> 1036979a-e2ce-4634-a8a1-0d7ecb772ae8
   Outputs:
     - !<MLOutput/00000000-0000-0000-0000-000000000000>
       Name: output_0
@@ -105,9 +73,26 @@
         - scale: 1.000000
           bias: 0.000000
       InputName: ""
-      OutputTexture: !<reference> ba624ea2-99ec-45b6-93ff-089d3efdab6b
-  Model: !<reference> ae3154d1-6417-4406-972b-adf0fbe2cbf5
-- !<ScreenTransform/b080bc46-db5e-4785-b8c4-c14e4d524186>
+      OutputTexture: !<reference> b7cd5c56-dcf7-421a-83b6-b718052b02af
+  Model: !<reference> be1a3fab-e3d6-408b-8ce3-604d90499077
+- !<SceneObject/83985422-a81e-4408-b93d-9b338a3e35b6>
+  PrefabRemaps:
+    []
+  Name: GroundSegmentation__PUT_IN_ORTHO_CAM
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c6ea276c-51eb-49f1-8810-3c849f5335a9
+    - !<own> 14342061-7802-40d9-a136-dd0131dd9206
+  Components:
+    - !<own> fae5c975-f15b-40fd-ba54-894c56d7e24b
+    - !<own> 879655de-8daf-4291-9db1-d4a79d1f4094
+- !<ScreenTransform/879655de-8daf-4291-9db1-d4a79d1f4094>
   PrefabRemaps:
     []
   Name: Screen Transform
@@ -140,43 +125,58 @@
     bottom: 0.000000
     right: 0.000000
     top: 0.000000
-- !<ScreenRegionComponent/b72bd963-fb48-4166-82d3-ca44cd270a31>
+- !<ScreenTransform/9d2cb3d5-f0cc-4ef7-a37b-b402b081ec31>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/c6ea276c-51eb-49f1-8810-3c849f5335a9>
+  PrefabRemaps:
+    []
+  Name: ML Component
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 120.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2e5156d8-bad7-4e13-8d90-0d4a1cfa2301
+- !<ScreenRegionComponent/fae5c975-f15b-40fd-ba54-894c56d7e24b>
   PrefabRemaps:
     []
   Name: Screen Region
   Enabled: true
   ScreenRegionType: FullFrame
   ResizeWithKeyboard: false
-- !<SceneObject/f6a1f536-7595-4448-8756-c8738938a443>
-  PrefabRemaps:
-    []
-  Name: Ground Segmentation Mask
-  Enabled: true
-  Layers: 1048576
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 08298d79-80eb-4f18-9994-5a40318aa80b
-    - !<own> 60c70273-b4d2-410a-b510-531b1597554d
-- !<SceneObject/fc026914-e7c4-4e60-83d5-48b3218f7409>
-  PrefabRemaps:
-    []
-  Name: GroundSegmentation__PUT_IN_ORTHO_CAM
-  Enabled: true
-  Layers: 1048576
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 085162d3-6457-456b-a9a9-3322f173ae5c
-    - !<own> f6a1f536-7595-4448-8756-c8738938a443
-  Components:
-    - !<own> b72bd963-fb48-4166-82d3-ca44cd270a31
-    - !<own> b080bc46-db5e-4785-b8c4-c14e4d524186

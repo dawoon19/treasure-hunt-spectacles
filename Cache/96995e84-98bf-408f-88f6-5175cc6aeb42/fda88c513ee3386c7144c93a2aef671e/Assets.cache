@@ -1,0 +1,45 @@
+- !<AssetCache/81f2cb6c-71b0-4ea3-a4c2-9ddd41d27986>
+  AssetFiles:
+    d2f2fc4d-cfc5-47f6-a97c-ccdbd9db5fee: e5cb4788-7ff0-492a-9fcd-a32947524ebc/61f382de816cb195dddbf30667b0f25d/Data/ground(R)_sky(G)_plants(B).dnn
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileMLAsset/d2f2fc4d-cfc5-47f6-a97c-ccdbd9db5fee>
+      PackagePath: ""
+      Inputs:
+        - !<MLInput/e985f648-6d60-454e-8b89-a65880b44d0f>
+          Name: data
+          Shape: {x: 128.000000, y: 256.000000, z: 3.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+          Transformer:
+            stretch: true
+            alignment.horizontal: Center
+            alignment.vertical: Center
+            fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+            flipX: false
+            flipY: false
+            rotation: None
+          Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      Outputs:
+        - !<MLOutput/7d1ed188-6f7b-41a2-82f3-9566b3b86cf9>
+          Name: output_0
+          Shape: {x: 128.000000, y: 256.000000, z: 3.000000}
+          Normalizations:
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+            - scale: 1.000000
+              bias: 0.000000
+          InputName: ""
+          OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  SourceHash: fda88c513ee3386c7144c93a2aef671e
+  FileHash: b8b1d6c307bd868c290f07d10ef28b3e
+  NativePackageItems:
+    []

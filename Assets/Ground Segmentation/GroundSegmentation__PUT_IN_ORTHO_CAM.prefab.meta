@@ -1,113 +1,18 @@
-- !<AssetImportMetadata/7cabba6b-e1ea-440c-9731-b26db7933466>
+- !<AssetImportMetadata/15f6c5bf-3701-4e88-b8b1-275df7380770>
   ImportedAssetIds:
-    ObjectPrefab: !<reference> 34610bf2-b750-4e2f-be8d-c8f8f48aef02
+    ObjectPrefab: !<reference> 9d12a336-9ad3-44d5-98a2-fec7ae747acc
   ImporterName: ObjectPrefabImporter
-  PrimaryAsset: !<reference> 34610bf2-b750-4e2f-be8d-c8f8f48aef02
+  PrimaryAsset: !<reference> 9d12a336-9ad3-44d5-98a2-fec7ae747acc
   PackageType: NotAPackage
   PackagePolicy: CannotBeUnpacked
   AssetDataMap:
-    ObjectPrefab: !<own> e2b31915-2ac3-4ad8-b292-250cf0394ddc
+    ObjectPrefab: !<own> b9c2afd7-2ce9-4a1b-96ce-f243a5d76249
   DependentFiles:
     []
-  ImporterSettings: !<AssetImporterSettings/358e2bb9-a853-447f-9521-84f632048d0b>
+  ImporterSettings: !<AssetImporterSettings/fb959bd0-661d-426d-bf90-c3d54110e48f>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScreenTransform/2e7d6e7d-9c3d-4006-8960-f860de7c7c79>
-  PrefabRemaps:
-    []
-  Name: Screen Transform
-  Enabled: true
-  IsAdvanced: false
-  Constraints:
-    pinToLeft: false
-    pinToTop: false
-    pinToRight: false
-    pinToBottom: false
-    fixedWidth: false
-    fixedHeight: false
-    deactivatedFixedSprite: false
-    deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
-  Transform:
-    position: {x: 0.000000, y: 0.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  RawMode: true
-  ForceBasic: true
-  Anchor:
-    left: -1.000000
-    bottom: -1.000000
-    right: 1.000000
-    top: 1.000000
-  Offset:
-    left: 0.000000
-    bottom: 0.000000
-    right: 0.000000
-    top: 0.000000
-- !<ObjectPrefab/3bd399c7-395f-4395-bcd2-c0e87d0d5b03>
-  PackagePath: GroundSegmentation__PUT_IN_ORTHO_CAM
-  objects:
-    - !<own> d5183224-89e0-4df0-86f6-6fb436f4b979
-  LazyLoading: false
-  RetainAssets: true
-- !<SceneObject/4a9f65d5-56ad-4215-bd2f-eedca3b332ee>
-  PrefabRemaps:
-    []
-  Name: Ground Segmentation Mask
-  Enabled: true
-  Layers: 1048576
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> 5ca6eeea-1177-4209-9d49-8073ba9335b0
-    - !<own> efb47a64-0452-48d6-b164-78d9dd55774f
-- !<ScreenTransform/5ca6eeea-1177-4209-9d49-8073ba9335b0>
-  PrefabRemaps:
-    []
-  Name: Screen Transform
-  Enabled: true
-  IsAdvanced: false
-  Constraints:
-    pinToLeft: false
-    pinToTop: false
-    pinToRight: false
-    pinToBottom: false
-    fixedWidth: false
-    fixedHeight: false
-    deactivatedFixedSprite: false
-    deactivatedFixedPivot: false
-  Pivot: {x: 0.000000, y: 0.000000}
-  Transform:
-    position: {x: 0.000000, y: 0.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  RawMode: true
-  ForceBasic: true
-  Anchor:
-    left: -1.000000
-    bottom: -1.000000
-    right: 1.000000
-    top: 1.000000
-  Offset:
-    left: 0.000000
-    bottom: 0.000000
-    right: 0.000000
-    top: 0.000000
-- !<ScreenRegionComponent/96bd9fa6-7ff3-47d3-935d-e8f76b9b3f0d>
-  PrefabRemaps:
-    []
-  Name: Screen Region
-  Enabled: true
-  ScreenRegionType: FullFrame
-  ResizeWithKeyboard: false
-- !<MLComponent/ad7137ad-e2bc-4447-945c-cb582b11820d>
+- !<MLComponent/0e7de040-3d03-4c2b-b3c0-3b64f832947a>
   PrefabRemaps:
     []
   Name: ML Component
@@ -134,7 +39,7 @@
         flipX: false
         flipY: false
         rotation: None
-      Texture: !<reference> 996c6f4e-b2ad-4117-9e3e-3db82e6e97f5
+      Texture: !<reference> 1036979a-e2ce-4634-a8a1-0d7ecb772ae8
   Outputs:
     - !<MLOutput/00000000-0000-0000-0000-000000000000>
       Name: output_0
@@ -143,9 +48,149 @@
         - scale: 1.000000
           bias: 0.000000
       InputName: ""
-      OutputTexture: !<reference> ba624ea2-99ec-45b6-93ff-089d3efdab6b
-  Model: !<reference> ae3154d1-6417-4406-972b-adf0fbe2cbf5
-- !<SceneObject/c673806b-ecd1-4595-bd8c-a15d927e421e>
+      OutputTexture: !<reference> b7cd5c56-dcf7-421a-83b6-b718052b02af
+  Model: !<reference> be1a3fab-e3d6-408b-8ce3-604d90499077
+- !<Image/1a3f2679-2e6b-440e-8a44-9fe75323cdd4>
+  PrefabRemaps:
+    []
+  Name: Image 2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b88f92db-068e-4443-9e03-8730d6dc19c1
+  FlipX: false
+  FlipY: false
+  Pivot: {x: 0.000000, y: 0.000000}
+- !<SceneObject/1b924abd-83b7-4490-8c8c-c47ef90e5b95>
+  PrefabRemaps:
+    []
+  Name: GroundSegmentation__PUT_IN_ORTHO_CAM
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> ebe3cb76-b3ad-474e-bc1f-d9e2f12814c5
+    - !<own> 7d12c753-21a7-4904-89fc-cd09016e13af
+  Components:
+    - !<own> cd72b0a0-5159-4a36-8133-721159594906
+    - !<own> 50b6bdf5-c3a8-4d00-9227-23ae937d5259
+- !<ScreenTransform/50b6bdf5-c3a8-4d00-9227-23ae937d5259>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ScreenTransform/6dd3885d-0133-46f2-a6f8-028f6e0265e3>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/7d12c753-21a7-4904-89fc-cd09016e13af>
+  PrefabRemaps:
+    []
+  Name: Ground Segmentation Mask
+  Enabled: true
+  Layers: 1048576
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6dd3885d-0133-46f2-a6f8-028f6e0265e3
+    - !<own> 1a3f2679-2e6b-440e-8a44-9fe75323cdd4
+- !<ObjectPrefab/af728f1c-b77d-4ec4-80e1-9942c35aee07>
+  PackagePath: GroundSegmentation__PUT_IN_ORTHO_CAM
+  objects:
+    - !<own> 1b924abd-83b7-4490-8c8c-c47ef90e5b95
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/b9c2afd7-2ce9-4a1b-96ce-f243a5d76249>
+  SourceRemaps:
+    - 14342061-7802-40d9-a136-dd0131dd9206: 7d12c753-21a7-4904-89fc-cd09016e13af
+    - 149d5489-6f3a-488a-92fa-35275494ac2c: 1a3f2679-2e6b-440e-8a44-9fe75323cdd4
+    - 2e5156d8-bad7-4e13-8d90-0d4a1cfa2301: 0e7de040-3d03-4c2b-b3c0-3b64f832947a
+    - 83985422-a81e-4408-b93d-9b338a3e35b6: 1b924abd-83b7-4490-8c8c-c47ef90e5b95
+    - 879655de-8daf-4291-9db1-d4a79d1f4094: 50b6bdf5-c3a8-4d00-9227-23ae937d5259
+    - 9d2cb3d5-f0cc-4ef7-a37b-b402b081ec31: 6dd3885d-0133-46f2-a6f8-028f6e0265e3
+    - c6ea276c-51eb-49f1-8810-3c849f5335a9: ebe3cb76-b3ad-474e-bc1f-d9e2f12814c5
+    - fae5c975-f15b-40fd-ba54-894c56d7e24b: cd72b0a0-5159-4a36-8133-721159594906
+  SourceState: !<own> af728f1c-b77d-4ec4-80e1-9942c35aee07
+- !<ScreenRegionComponent/cd72b0a0-5159-4a36-8133-721159594906>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+- !<SceneObject/ebe3cb76-b3ad-474e-bc1f-d9e2f12814c5>
   PrefabRemaps:
     []
   Name: ML Component
@@ -159,49 +204,4 @@
   Children:
     []
   Components:
-    - !<own> ad7137ad-e2bc-4447-945c-cb582b11820d
-- !<SceneObject/d5183224-89e0-4df0-86f6-6fb436f4b979>
-  PrefabRemaps:
-    []
-  Name: GroundSegmentation__PUT_IN_ORTHO_CAM
-  Enabled: true
-  Layers: 1048576
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: -40.000000}
-    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> c673806b-ecd1-4595-bd8c-a15d927e421e
-    - !<own> 4a9f65d5-56ad-4215-bd2f-eedca3b332ee
-  Components:
-    - !<own> 96bd9fa6-7ff3-47d3-935d-e8f76b9b3f0d
-    - !<own> 2e7d6e7d-9c3d-4006-8960-f860de7c7c79
-- !<ObjectPrefabAssetData/e2b31915-2ac3-4ad8-b292-250cf0394ddc>
-  SourceRemaps:
-    - 08298d79-80eb-4f18-9994-5a40318aa80b: 5ca6eeea-1177-4209-9d49-8073ba9335b0
-    - 085162d3-6457-456b-a9a9-3322f173ae5c: c673806b-ecd1-4595-bd8c-a15d927e421e
-    - 60c70273-b4d2-410a-b510-531b1597554d: efb47a64-0452-48d6-b164-78d9dd55774f
-    - 9900f406-5691-409a-abef-ef17121b935f: ad7137ad-e2bc-4447-945c-cb582b11820d
-    - b080bc46-db5e-4785-b8c4-c14e4d524186: 2e7d6e7d-9c3d-4006-8960-f860de7c7c79
-    - b72bd963-fb48-4166-82d3-ca44cd270a31: 96bd9fa6-7ff3-47d3-935d-e8f76b9b3f0d
-    - f6a1f536-7595-4448-8756-c8738938a443: 4a9f65d5-56ad-4215-bd2f-eedca3b332ee
-    - fc026914-e7c4-4e60-83d5-48b3218f7409: d5183224-89e0-4df0-86f6-6fb436f4b979
-  SourceState: !<own> 3bd399c7-395f-4395-bcd2-c0e87d0d5b03
-- !<Image/efb47a64-0452-48d6-b164-78d9dd55774f>
-  PrefabRemaps:
-    []
-  Name: Image 2
-  Enabled: true
-  RenderOrder: 0
-  StretchMode: Stretch
-  VerticalAlignment: Center
-  HorizontalAlignment: Center
-  MeshShadowMode: None
-  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
-  ShadowDensity: 1.000000
-  Materials:
-    - !<reference> fa35235f-ad8f-4264-91c3-9633828c618c
-  FlipX: false
-  FlipY: false
-  Pivot: {x: 0.000000, y: 0.000000}
+    - !<own> 0e7de040-3d03-4c2b-b3c0-3b64f832947a
