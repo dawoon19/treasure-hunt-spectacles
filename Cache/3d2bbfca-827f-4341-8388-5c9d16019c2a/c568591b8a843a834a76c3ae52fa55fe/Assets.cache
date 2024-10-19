@@ -1,0 +1,12 @@
+- !<AssetCache/c568591b-8a84-3a83-4a76-c3ae52fa55fe>
+  AssetFiles:
+    baf7e664-cbbd-4cf7-9a1c-012387f6b2aa: 3d2bbfca-827f-4341-8388-5c9d16019c2a/c568591b8a843a834a76c3ae52fa55fe/Data/Urbanist-VariableFont_wght.ttf
+  AssetCurrentFiles:
+    baf7e664-cbbd-4cf7-9a1c-012387f6b2aa: 3d2bbfca-827f-4341-8388-5c9d16019c2a/c568591b8a843a834a76c3ae52fa55fe/Data/Urbanist-VariableFont_wght.ttf
+  Assets:
+    - !<Font/baf7e664-cbbd-4cf7-9a1c-012387f6b2aa>
+      PackagePath: ""
+  SourceHash: c568591b8a843a834a76c3ae52fa55fe
+  FileHash: 21ea819658708bce53142309b40c4e8d
+  NativePackageItems:
+    []

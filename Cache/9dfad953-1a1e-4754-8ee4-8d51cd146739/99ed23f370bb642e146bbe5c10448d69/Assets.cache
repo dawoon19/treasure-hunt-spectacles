@@ -1,0 +1,15 @@
+- !<AssetCache/99ed23f3-70bb-642e-146b-be5c10448d69>
+  AssetFiles:
+    08a5c1f5-6463-4bce-ab97-3c8e2b9658d0: 9dfad953-1a1e-4754-8ee4-8d51cd146739/99ed23f370bb642e146bbe5c10448d69/Data/info_card.png
+  AssetCurrentFiles:
+    08a5c1f5-6463-4bce-ab97-3c8e2b9658d0: 9dfad953-1a1e-4754-8ee4-8d51cd146739/99ed23f370bb642e146bbe5c10448d69/Data/Performance/Medium/info_card.pvr
+  Assets:
+    - !<FileTexture/08a5c1f5-6463-4bce-ab97-3c8e2b9658d0>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 800
+        Height: 800
+  SourceHash: 99ed23f370bb642e146bbe5c10448d69
+  FileHash: 1147d7d8a025721a9d9d611bf2975367
+  NativePackageItems:
+    []

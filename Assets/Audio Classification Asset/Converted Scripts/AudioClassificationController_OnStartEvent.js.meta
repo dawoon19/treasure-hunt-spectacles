@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/eb4eeb82-078c-4b63-a275-75e4b1da458c>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 58610b7b-1e16-41ca-bfe8-f044268d2ff2
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 58610b7b-1e16-41ca-bfe8-f044268d2ff2
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 2093c0c6-1d03-49ed-823c-9626a1aa0cb2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/a659beb0-5434-4640-86f9-50cecb71d97f>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/2093c0c6-1d03-49ed-823c-9626a1aa0cb2>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    advanced: false
+    audioSource: false
+    audioSpectrogramScript: false
+    callApiFunction: false
+    classText: false
+    customTriggerPrefix: false
+    debugImage: false
+    debugText: false
+    deltaTime: false
+    extendedSuggestions: false
+    functionName: false
+    labels: false
+    model: false
+    placeholderText: false
+    printResultTo: false
+    scriptWithApi: false
+    useBehavior: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - model: !<reference.MLAsset> 00000000-0000-0000-0000-000000000000
+      audioSource: !<reference.AudioTrackAsset> 00000000-0000-0000-0000-000000000000
+      labels: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      extendedSuggestions: false
+      callApiFunction: false
+      scriptWithApi: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      functionName: onClassDetected
+      useBehavior: false
+      customTriggerPrefix: KEYWORD_
+      printResultTo: false
+      classText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      placeholderText: Listening...
+      advanced: false
+      audioSpectrogramScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      deltaTime: 0.500000
+      debugText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      debugImage: !<reference.Image> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

@@ -1,0 +1,12 @@
+- !<AssetCache/2724a74f-eac2-ab96-2a6a-1a0b83b4e3c2>
+  AssetFiles:
+    74a2bc31-5c2e-4a06-84ee-e6174d4e40ba: db6c7243-fb38-423e-8c8d-80ba928537d2/2724a74feac2ab962a6a1a0b83b4e3c2/Data/Lato-Regular.ttf
+  AssetCurrentFiles:
+    74a2bc31-5c2e-4a06-84ee-e6174d4e40ba: db6c7243-fb38-423e-8c8d-80ba928537d2/2724a74feac2ab962a6a1a0b83b4e3c2/Data/Lato-Regular.ttf
+  Assets:
+    - !<Font/74a2bc31-5c2e-4a06-84ee-e6174d4e40ba>
+      PackagePath: ""
+  SourceHash: 2724a74feac2ab962a6a1a0b83b4e3c2
+  FileHash: 39ecab0be56c0e2e071856eae5ea0ee0
+  NativePackageItems:
+    []

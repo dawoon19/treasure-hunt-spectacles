@@ -1,0 +1,125 @@
+
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"bindingName": "Tweak_N40",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "showGround",
+                	"widget":      "checkbox",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "opaticy",
+                	"label":       "Opacity",
+                	"widget":      "slider",
+                	"min":         0,
+                	"max":         1,
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N41",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "showSky",
+                	"widget":      "checkbox",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "Tweak_N42",
+                	"bindingType": "define",
+                	"optimize":    true,
+                	"label":       "showPlants",
+                	"widget":      "checkbox",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"label": "Noise",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "Tweak_N1",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Show Filling",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "0",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "edgeColor",
+                    	"label":       "Edge Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "7",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "fillColor",
+                    	"label":       "Fill Color",
+                    	"widget":      "color",
+                    	"sortIndex":   "9",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "noiseFrequency",
+                    	"label":       "Noise Frequency",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "10",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                { 
+                	"bindingName": "baseTex", 
+                	"label":       "Base Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "1",
+                	"hint":        ""
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_CASTER"
+	]
+}

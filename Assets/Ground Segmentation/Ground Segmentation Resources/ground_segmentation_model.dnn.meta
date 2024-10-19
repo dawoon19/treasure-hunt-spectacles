@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/f81d9e0f-502f-4079-bead-28cde0ddb68a>
+  ImportedAssetIds:
+    FileMLAsset: !<reference> ae3154d1-6417-4406-972b-adf0fbe2cbf5
+  ImporterName: FileMLAssetImporter
+  PrimaryAsset: !<reference> ae3154d1-6417-4406-972b-adf0fbe2cbf5
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMLAssetImporterSettings/b27dfe4f-74df-4fef-ac46-1e19718a1c49>
+    Inputs:
+      - !<MLInput/013bf6fd-f546-47f4-8b8d-5c419c85cfa4>
+        Name: data
+        Shape: {x: 128.000000, y: 256.000000, z: 3.000000}
+        Normalizations:
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+          - scale: 1.000000
+            bias: 0.000000
+        Transformer:
+          stretch: true
+          alignment.horizontal: Center
+          alignment.vertical: Center
+          fill: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+          flipX: false
+          flipY: false
+          rotation: None
+        Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    Outputs:
+      - !<MLOutput/836db738-7065-44f0-9d65-f192d2b04491>
+        Name: output_0
+        Shape: {x: 128.000000, y: 256.000000, z: 1.000000}
+        Normalizations:
+          - scale: 1.000000
+            bias: 0.000000
+        InputName: ""
+        OutputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  CompressionSettings: !<SingleCompressionSettings/91c26f20-555f-4c39-a2b4-b8a999fa5ac5>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

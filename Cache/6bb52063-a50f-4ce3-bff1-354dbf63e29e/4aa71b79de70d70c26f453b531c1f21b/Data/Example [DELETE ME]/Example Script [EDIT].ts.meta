@@ -1,0 +1,39 @@
+- !<AssetImportMetadata/45cc8f2e-aa75-45d3-9cb1-95026953d1d8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9c1886b9-0441-4899-b288-1c0daeaf4c9e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9c1886b9-0441-4899-b288-1c0daeaf4c9e
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> a7c17cfa-c427-4b9b-aa7c-affb64d1aae8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/3c5f7294-f3d2-4df2-8256-75654441fb33>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a7c17cfa-c427-4b9b-aa7c-affb64d1aae8>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    objectVisuals: false
+    surfaceDetection: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - objectVisuals: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      surfaceDetection: !<MappingBased.SurfaceDetection> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject objectVisuals
+    - // @input SurfaceDetection surfaceDetection

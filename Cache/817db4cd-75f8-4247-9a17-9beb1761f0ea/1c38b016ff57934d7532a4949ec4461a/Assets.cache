@@ -1,0 +1,12 @@
+- !<AssetCache/1c38b016-ff57-934d-7532-a4949ec4461a>
+  AssetFiles:
+    9bfdbd59-88a2-407c-9f93-927be31c98c3: 817db4cd-75f8-4247-9a17-9beb1761f0ea/1c38b016ff57934d7532a4949ec4461a/Data/bubble_high.mp3
+  AssetCurrentFiles:
+    9bfdbd59-88a2-407c-9f93-927be31c98c3: 817db4cd-75f8-4247-9a17-9beb1761f0ea/1c38b016ff57934d7532a4949ec4461a/Data/bubble_high.mp3
+  Assets:
+    - !<FileAudioTrack/9bfdbd59-88a2-407c-9f93-927be31c98c3>
+      PackagePath: ""
+  SourceHash: 1c38b016ff57934d7532a4949ec4461a
+  FileHash: 29f977f41896f419dfc39379efda7341
+  NativePackageItems:
+    []

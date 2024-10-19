@@ -1,0 +1,211 @@
+CollapsedEntities:
+  type: stringset
+  value:
+    size: 205
+    values:
+      - Audio Classification Asset
+      - Audio Classification Asset/.hidden
+      - Audio Classification Asset/.hidden/SpritePreset.lsmat.mat
+      - Audio Classification Asset/.hidden/SpritePreset1.lsmat.ss_graph
+      - Audio Classification Asset/.hidden/info_card.ss_graph
+      - Audio Classification Asset/Audio Classification Resources
+      - Audio Classification Asset/Audio Classification Resources/Audio Classification Model - Remote.remoteMLAsset
+      - Audio Classification Asset/Audio Classification Resources/Audio From Microphone.micaudio
+      - "Audio Classification Asset/Audio Classification Resources/Class Labels [OPEN ME].js"
+      - "Audio Classification Asset/Audio Classification Resources/Info Card [DELETE_ME]"
+      - "Audio Classification Asset/Audio Classification Resources/Info Card [DELETE_ME]/Fonts"
+      - "Audio Classification Asset/Audio Classification Resources/Info Card [DELETE_ME]/Fonts/Lato-Bold 2.ttf"
+      - "Audio Classification Asset/Audio Classification Resources/Info Card [DELETE_ME]/Fonts/Lato-Regular 2.ttf"
+      - "Audio Classification Asset/Audio Classification Resources/Info Card [DELETE_ME]/Materials"
+      - "Audio Classification Asset/Audio Classification Resources/Info Card [DELETE_ME]/Materials/info_card.mat"
+      - "Audio Classification Asset/Audio Classification Resources/Info Card [DELETE_ME]/Textures"
+      - "Audio Classification Asset/Audio Classification Resources/Info Card [DELETE_ME]/Textures/info_card.png"
+      - Audio Classification Asset/Audio Classification Resources/Scripts
+      - Audio Classification Asset/Audio Classification Resources/Scripts/AudioClassificationController.js
+      - Audio Classification Asset/Audio Classification Resources/Scripts/AudioSpectrogram.js
+      - Audio Classification Asset/Audio Classification Resources/Textures
+      - Audio Classification Asset/Audio Classification Resources/Textures/listening_anim
+      - Audio Classification Asset/Audio Classification Resources/Textures/listening_anim/listening_anim.t3d
+      - Audio Classification Asset/Audio Classification Resources/Textures/listening_anim/listening_anim.t3d/atlas_0.png
+      - Audio Classification Asset/Audio Classification Resources/Textures/listening_anim/listening_anim.t3d/listening_anim
+      - Audio Classification Asset/AudioClassification__PUT_IN_ORTHO_CAM.prefab
+      - Audio Classification Asset/Converted Scripts
+      - Audio Classification Asset/Converted Scripts/AudioClassificationController_OnStartEvent.js
+      - Audio Classification Asset/Converted Scripts/AudioClassificationController_wrapped.js
+      - Ground Segmentation
+      - Ground Segmentation/.hidden
+      - Ground Segmentation/.hidden/SpritePreset.lsmat.mat
+      - Ground Segmentation/.hidden/SpritePreset1.lsmat.ss_graph
+      - Ground Segmentation/Ground Segmentation Resources
+      - Ground Segmentation/Ground Segmentation Resources/ground_segmentation_model.dnn
+      - Ground Segmentation/Ground Segmentation Resources/segmentation_texture.proxyTexture
+      - Ground Segmentation/GroundSegmentation__PUT_IN_ORTHO_CAM.prefab
+      - Multi Segmentation.lspkg
+      - "Multi Segmentation.lspkg/ML Resources [DO_NOT_DELETE]"
+      - "Multi Segmentation.lspkg/ML Resources [DO_NOT_DELETE]/ML Output.proxyTexture"
+      - "Multi Segmentation.lspkg/ML Resources [DO_NOT_DELETE]/ground(R)_sky(G)_plants(B).dnn"
+      - Multi Segmentation.lspkg/Materials
+      - "Multi Segmentation.lspkg/Materials/Funky Lines [EDIT_ME].mat"
+      - "Multi Segmentation.lspkg/Materials/Noise Pattern [EDIT_ME].mat"
+      - "Multi Segmentation.lspkg/Materials/TiledGif [EDIT_ME].mat"
+      - "Multi Segmentation.lspkg/Materials/Unlit Examples [DUPLICATE_MATERIALS]"
+      - "Multi Segmentation.lspkg/Materials/Unlit Examples [DUPLICATE_MATERIALS]/Unlit Ground [DUPLICATE_ME].mat"
+      - "Multi Segmentation.lspkg/Materials/Unlit Examples [DUPLICATE_MATERIALS]/Unlit Plant [DUPLICATE_ME].mat"
+      - "Multi Segmentation.lspkg/Materials/Unlit Examples [DUPLICATE_MATERIALS]/Unlit Sky [DUPLICATE_ME].mat"
+      - Multi Segmentation.lspkg/Multi Segmentation__PUT_IN_ORTHO_CAM.prefab
+      - Multi Segmentation.lspkg/ReadMe.js
+      - Multi Segmentation.lspkg/Shaders
+      - "Multi Segmentation.lspkg/Shaders/Funky Lines [EDIT_ME].ss_graph"
+      - "Multi Segmentation.lspkg/Shaders/Noise Pattern [EDIT_ME].ss_graph"
+      - "Multi Segmentation.lspkg/Shaders/TiledGif [EDIT_ME].ss_graph"
+      - "Multi Segmentation.lspkg/Shaders/Unlit Ground [DUPLICATE_ME].ss_graph"
+      - "Multi Segmentation.lspkg/Shaders/Unlit Plant [DUPLICATE_ME].ss_graph"
+      - "Multi Segmentation.lspkg/Shaders/Unlit Sky [DUPLICATE_ME].ss_graph"
+      - Multi Segmentation.lspkg/Textures
+      - Multi Segmentation.lspkg/Textures/Device Camera Texture.deviceCameraTexture
+      - Multi Segmentation.lspkg/Textures/Spinning Flower
+      - Multi Segmentation.lspkg/Textures/Spinning Flower/Spinning Flower.t3d
+      - Multi Segmentation.lspkg/Textures/Spinning Flower/Spinning Flower.t3d/Spinning Flower
+      - Multi Segmentation.lspkg/Textures/Spinning Flower/Spinning Flower.t3d/atlas_0.png
+      - Multi Segmentation.lspkg/Textures/funky_lines_gradient.jpg
+      - Multi Segmentation.lspkg/Textures/white.png
+      - Multi Segmentation.lspkg/package.native
+      - Speech Recognition.lspkg
+      - Speech Recognition.lspkg/Fonts
+      - Speech Recognition.lspkg/Fonts/Urbanist-VariableFont_wght.ttf
+      - "Speech Recognition.lspkg/Info Card [DELETE_ME]"
+      - "Speech Recognition.lspkg/Info Card [DELETE_ME]/Fonts"
+      - "Speech Recognition.lspkg/Info Card [DELETE_ME]/Fonts/Lato-Bold.ttf"
+      - "Speech Recognition.lspkg/Info Card [DELETE_ME]/Fonts/Lato-Regular.ttf"
+      - "Speech Recognition.lspkg/Info Card [DELETE_ME]/Materials"
+      - "Speech Recognition.lspkg/Info Card [DELETE_ME]/Materials/Info Card Background.mat"
+      - "Speech Recognition.lspkg/Info Card [DELETE_ME]/Materials/SpritePreset.lsmat.mat"
+      - "Speech Recognition.lspkg/Info Card [DELETE_ME]/Textures"
+      - "Speech Recognition.lspkg/Info Card [DELETE_ME]/Textures/BaseTex.png"
+      - "Speech Recognition.lspkg/Info Card [DELETE_ME]/Textures/Icon.png"
+      - Speech Recognition.lspkg/Scripts
+      - Speech Recognition.lspkg/Scripts/Behavior.js
+      - Speech Recognition.lspkg/Scripts/CommandHandler.js
+      - Speech Recognition.lspkg/Scripts/Keyword.js
+      - Speech Recognition.lspkg/Scripts/SpeechContext.js
+      - Speech Recognition.lspkg/Scripts/SpeechRecogition.js
+      - Speech Recognition.lspkg/Scripts/VoiceMLLanguage.js
+      - Speech Recognition.lspkg/Shaders
+      - Speech Recognition.lspkg/Shaders/Info Card Background.ss_graph
+      - Speech Recognition.lspkg/Shaders/SpritePreset.lsmat.ss_graph
+      - Speech Recognition.lspkg/Speech Recognition__PLACE_IN_SCENE.prefab
+      - Speech Recognition.lspkg/VoiceML Module.voiceMLModule
+      - Speech Recognition.lspkg/package.native
+      - Surface Detection 1.lspkg
+      - Surface Detection 1.lspkg/Audio
+      - Surface Detection 1.lspkg/Audio/CalibrationComplete.mp3
+      - "Surface Detection 1.lspkg/Example [DELETE ME]"
+      - "Surface Detection 1.lspkg/Example [DELETE ME]/Example Script [EDIT].ts"
+      - "Surface Detection 1.lspkg/Example [DELETE ME]/Materials"
+      - "Surface Detection 1.lspkg/Example [DELETE ME]/Materials/Uber PBR.mat"
+      - "Surface Detection 1.lspkg/Example [DELETE ME]/Meshes"
+      - "Surface Detection 1.lspkg/Example [DELETE ME]/Meshes/Box.mesh"
+      - "Surface Detection 1.lspkg/Example [DELETE ME]/Shaders"
+      - "Surface Detection 1.lspkg/Example [DELETE ME]/Shaders/uber_pbr.ss_graph"
+      - "Surface Detection 1.lspkg/Example [DELETE ME]/Textures"
+      - "Surface Detection 1.lspkg/Example [DELETE ME]/Textures/Base.png"
+      - "Surface Detection 1.lspkg/Example [DELETE ME]/Textures/Normal.png"
+      - Surface Detection 1.lspkg/Materials
+      - Surface Detection 1.lspkg/Materials/CalibrationMat.mat
+      - Surface Detection 1.lspkg/Meshes
+      - Surface Detection 1.lspkg/Meshes/Unit Plane.mesh
+      - Surface Detection 1.lspkg/Scripts
+      - Surface Detection 1.lspkg/Scripts/CircleAnimation.ts
+      - Surface Detection 1.lspkg/Scripts/SurfaceDetection.ts
+      - Surface Detection 1.lspkg/Shaders
+      - Surface Detection 1.lspkg/Shaders/CalibrationShader.ss_graph
+      - Surface Detection 1.lspkg/SurfaceDetection__ADD_TO_SCENE.prefab
+      - Surface Detection 1.lspkg/Textures
+      - Surface Detection 1.lspkg/Textures/groundIcon.png
+      - Surface Detection 1.lspkg/package.native
+      - Surface Detection.lspkg
+      - Surface Detection.lspkg/Audio
+      - Surface Detection.lspkg/Audio/CalibrationComplete.mp3
+      - "Surface Detection.lspkg/Example [DELETE ME]"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Example Script [EDIT].ts"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Materials"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Materials/Uber PBR.mat"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Meshes"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Meshes/Box.mesh"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Shaders"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Shaders/uber_pbr.ss_graph"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Textures"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Textures/Base.png"
+      - "Surface Detection.lspkg/Example [DELETE ME]/Textures/Normal.png"
+      - Surface Detection.lspkg/Materials
+      - Surface Detection.lspkg/Materials/CalibrationMat.mat
+      - Surface Detection.lspkg/Meshes
+      - Surface Detection.lspkg/Meshes/Unit Plane.mesh
+      - Surface Detection.lspkg/Scripts
+      - Surface Detection.lspkg/Scripts/CircleAnimation.ts
+      - Surface Detection.lspkg/Scripts/SurfaceDetection.ts
+      - Surface Detection.lspkg/Shaders
+      - Surface Detection.lspkg/Shaders/CalibrationShader.ss_graph
+      - Surface Detection.lspkg/SurfaceDetection__ADD_TO_SCENE.prefab
+      - Surface Detection.lspkg/Textures
+      - Surface Detection.lspkg/Textures/groundIcon.png
+      - Surface Detection.lspkg/package.native
+      - UI SFX Pack
+      - UI SFX Pack/UI SFX Pack Resources
+      - UI SFX Pack/UI SFX Pack Resources/bubble_high.mp3
+      - UI SFX Pack/UI SFX Pack Resources/bubble_low.mp3
+      - UI SFX Pack/UI SFX Pack Resources/bubble_mid.mp3
+      - UI SFX Pack/UI SFX Pack Resources/notification1.mp3
+      - UI SFX Pack/UI SFX Pack Resources/notification2.mp3
+      - UI SFX Pack/UI SFX Pack Resources/notification3.mp3
+      - UI SFX Pack/UI SFX Pack Resources/notification4.mp3
+      - UI SFX Pack/UI SFX Pack Resources/notification5.mp3
+      - UI SFX Pack/UI SFX Pack Resources/notification6.mp3
+      - UI SFX Pack/UI SFX Pack Resources/tap_click1.mp3
+      - UI SFX Pack/UI SFX Pack Resources/tap_click2.mp3
+      - UI SFX Pack/UI SFX Pack Resources/tap_click3.mp3
+      - UI SFX Pack/UI SFX Pack Resources/tap_click4.mp3
+      - UI SFX Pack/UI SFX Pack Resources/tap_click5.mp3
+      - UI SFX Pack/UI SFX Pack Resources/tap_click6.mp3
+      - UI SFX Pack/UI SFX Pack Resources/tap_click7.mp3
+      - UI SFX Pack/UI SFX Pack Resources/tap_click8.mp3
+      - UI SFX Pack/UI SFX Pack Resources/tap_jump.mp3
+      - UI SFX Pack/UI SFX Pack Resources/upgrade.mp3
+      - UI SFX Pack/UISFX__PLACE_IN_OBJECTS_PANEL.prefab
+      - World Query Hit - Spawn On Surface
+      - World Query Hit - Spawn On Surface/Materials
+      - World Query Hit - Spawn On Surface/Materials/Plane.mat
+      - World Query Hit - Spawn On Surface/Materials/cloud.mat
+      - World Query Hit - Spawn On Surface/Materials/house.mat
+      - World Query Hit - Spawn On Surface/Materials/statue.mat
+      - World Query Hit - Spawn On Surface/Materials/tree.mat
+      - World Query Hit - Spawn On Surface/Meshes
+      - World Query Hit - Spawn On Surface/Meshes/Plane.mesh
+      - World Query Hit - Spawn On Surface/Meshes/cloud.mesh
+      - World Query Hit - Spawn On Surface/Meshes/eyes.mesh
+      - World Query Hit - Spawn On Surface/Meshes/mouth_open.mesh
+      - World Query Hit - Spawn On Surface/Meshes/mouth_smile.mesh
+      - World Query Hit - Spawn On Surface/Meshes/sit.mesh
+      - World Query Hit - Spawn On Surface/Meshes/stand.mesh
+      - World Query Hit - Spawn On Surface/Meshes/statue.mesh
+      - World Query Hit - Spawn On Surface/Meshes/tail.mesh
+      - World Query Hit - Spawn On Surface/Meshes/tree.mesh
+      - World Query Hit - Spawn On Surface/Shaders
+      - World Query Hit - Spawn On Surface/Shaders/cloud.ss_graph
+      - World Query Hit - Spawn On Surface/Shaders/pbr.ss_graph
+      - World Query Hit - Spawn On Surface/Textures
+      - World Query Hit - Spawn On Surface/Textures/Tree_base.png
+      - World Query Hit - Spawn On Surface/Textures/Tree_normal.png
+      - World Query Hit - Spawn On Surface/Textures/Tree_params.png
+      - World Query Hit - Spawn On Surface/Textures/cloud_base.png
+      - World Query Hit - Spawn On Surface/Textures/cloud_normal.png
+      - World Query Hit - Spawn On Surface/Textures/cloud_params.png
+      - World Query Hit - Spawn On Surface/Textures/house_base.png
+      - World Query Hit - Spawn On Surface/Textures/house_normal.png
+      - World Query Hit - Spawn On Surface/Textures/house_params.png
+      - World Query Hit - Spawn On Surface/Textures/statue_base.png
+      - World Query Hit - Spawn On Surface/Textures/statue_normal.png
+      - World Query Hit - Spawn On Surface/Textures/statue_params.png
+      - World Query Hit - Spawn On Surface/World Query Hit Example.prefab
+      - World Query Hit - Spawn On Surface/WorldQueryHitExample.ts
+  options: 4

@@ -1,0 +1,12 @@
+- !<AssetCache/fdf65fef-f66d-3a1d-ba5c-552638aa14b5>
+  AssetFiles:
+    e19672c6-8d39-4a1f-80f7-a214ea3108a5: ee94254a-73e2-457e-aa40-c96815dbd569/fdf65feff66d3a1dba5c552638aa14b5/Data/tap_click1.mp3
+  AssetCurrentFiles:
+    e19672c6-8d39-4a1f-80f7-a214ea3108a5: ee94254a-73e2-457e-aa40-c96815dbd569/fdf65feff66d3a1dba5c552638aa14b5/Data/tap_click1.mp3
+  Assets:
+    - !<FileAudioTrack/e19672c6-8d39-4a1f-80f7-a214ea3108a5>
+      PackagePath: ""
+  SourceHash: fdf65feff66d3a1dba5c552638aa14b5
+  FileHash: aa81d2615cb96d0f461b3d2637ff4a11
+  NativePackageItems:
+    []

@@ -1,0 +1,98 @@
+- !<Material/8e7afdcb-72cc-4c2c-adb1-a8b4b3227c45>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> 128f7af3-7ae7-413c-935c-e698f34cff77
+- !<PassInfo/128f7af3-7ae7-413c-935c-e698f34cff77>
+  DepthWrite: true
+  DepthTest: false
+  DepthFunction: LessEqual
+  TwoSided: true
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - Tweak_N42
+  BlendMode: Screen
+  Properties:
+    Port_Default_N019:
+      typeIdx: 4
+      value: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Port_Default_N037:
+      typeIdx: 1
+      value: 0.000000
+    Port_Default_N039:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N003:
+      typeIdx: 3
+      value: {x: 3.000000, y: 3.000000}
+    Port_Input1_N033:
+      typeIdx: 1
+      value: 0.200000
+    Port_Multiplier_N009:
+      typeIdx: 1
+      value: 5.000000
+    Port_RangeMaxA_N002:
+      typeIdx: 1
+      value: 0.800000
+    Port_RangeMaxB_N002:
+      typeIdx: 1
+      value: 1.200000
+    Port_RangeMinA_N002:
+      typeIdx: 1
+      value: 0.200000
+    Port_RangeMinB_N002:
+      typeIdx: 1
+      value: -0.200000
+    Port_Value1_N035:
+      typeIdx: 1
+      value: 0.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseTex:
+      typeIdx: 9
+      value:
+        id: e58cfca6-6e84-4ff2-9351-37560e47d9bd
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTexBorderColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexDims:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    baseTexUvMinMax:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    edgeColor:
+      typeIdx: 5
+      value: {x: 0.285328, y: 0.444800, z: 0.998505, w: 1.000000}
+    noiseFrequency:
+      typeIdx: 1
+      value: 5.000000
+    opaticy:
+      typeIdx: 1
+      value: 1.000000
+    overrideTimeElapsed:
+      typeIdx: 1
+      value: 0.000000
+    overrideTimeEnabled:
+      typeIdx: 0
+      value: 0
+  Pass: !<reference> 0a41db37-fe43-4039-bde7-7666b8080e6d

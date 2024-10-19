@@ -1,0 +1,12 @@
+- !<AssetCache/ce23789a-936b-4ead-15ff-43ed5f1dbeac>
+  AssetFiles:
+    144296f3-1cf6-403a-8012-b1565f4c605d: a0f7f456-f3d0-4f8e-bb1c-898ed64572fe/ce23789a936b4ead15ff43ed5f1dbeac/Data/notification3.mp3
+  AssetCurrentFiles:
+    144296f3-1cf6-403a-8012-b1565f4c605d: a0f7f456-f3d0-4f8e-bb1c-898ed64572fe/ce23789a936b4ead15ff43ed5f1dbeac/Data/notification3.mp3
+  Assets:
+    - !<FileAudioTrack/144296f3-1cf6-403a-8012-b1565f4c605d>
+      PackagePath: ""
+  SourceHash: ce23789a936b4ead15ff43ed5f1dbeac
+  FileHash: 5b0cc3819501a9de524ab01acac1b558
+  NativePackageItems:
+    []

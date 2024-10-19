@@ -1,0 +1,32 @@
+- !<AssetCache/371fd553-5019-eb0e-8cbc-13f4c354954a>
+  AssetFiles:
+    66d58724-71fc-4675-9c64-de48a014515a: dd8646db-a3b5-46e0-829c-bb3fde93d237/371fd5535019eb0e8cbc13f4c354954a/Data/Spinning Flower.t3d
+    850eddde-051a-472f-8ca8-eef2f274c320: dd8646db-a3b5-46e0-829c-bb3fde93d237/371fd5535019eb0e8cbc13f4c354954a/Data/atlas_0.png
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<AnimatedTexture/66d58724-71fc-4675-9c64-de48a014515a>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 1.000000
+            value: 12
+      ReverseSupported: true
+      FrameSize: {x: 512, y: 512}
+      AnimationSequences:
+        default: 12
+      AutoPlay: true
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/850eddde-051a-472f-8ca8-eef2f274c320>
+      PackagePath: atlas_0.png
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 2048
+        Height: 1536
+  SourceHash: 371fd5535019eb0e8cbc13f4c354954a
+  FileHash: 7c31bda22861b7dcacaa1f091a646e84
+  NativePackageItems:
+    []

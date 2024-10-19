@@ -1,0 +1,15 @@
+- !<AssetCache/373ae56b-c22f-2604-5f02-c0e15884c0e8>
+  AssetFiles:
+    37fc55ce-1b76-4dff-8133-c2be1e449e41: d1b9f6ca-1d36-4369-b405-6c53634356b8/373ae56bc22f26045f02c0e15884c0e8/Data/funky_lines_gradient.jpg
+  AssetCurrentFiles:
+    {}
+  Assets:
+    - !<FileTexture/37fc55ce-1b76-4dff-8133-c2be1e449e41>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo/00000000-0000-0000-0000-000000000000>
+        Width: 128
+        Height: 1
+  SourceHash: 373ae56bc22f26045f02c0e15884c0e8
+  FileHash: 6fe36a8ffcb0550726e841db2e1183ce
+  NativePackageItems:
+    []
