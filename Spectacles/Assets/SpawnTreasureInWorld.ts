@@ -18,9 +18,14 @@ export class NewScript extends BaseScriptComponent {
 
     @input
     filterEnabled: boolean;    
+
+    @input
+    treasureBound: SceneObject;
     
     onAwake() {
         this.chooseTreasurePosition();
+
+        this.setTreasureBound();
         
         
         
@@ -49,6 +54,11 @@ export class NewScript extends BaseScriptComponent {
         const distZ = MathUtils.randomRange(300, 800);
         const finalPosition = new vec3(distX * frontOrBackX, -50, distZ * frontOrBackZ);
         this.targetObject.getTransform().setWorldPosition(finalPosition);
+        this.spawnPosition = finalPosition;
+    }
+
+    setTreasureBound() {
+        this.treasureBound.getTransform().setWorldPosition(this.spawnPosition);
     }
     
     getTreasurePosition() {

@@ -22,7 +22,7 @@ export class MotionControllerHelper extends BaseScriptComponent {
     this.transform = this.sceneObject.getTransform();
     this.controller.onTransformEvent.add(this.updateTransform.bind(this));
 
-    this.controller.onTouchEvent.add(this.onTouchEvent.bind(this));
+    // this.controller.onTouchEvent.add(this.onTouchEvent.bind(this));
 
     // make sure its only detected for "layer 1" objects
     this.childCollider.onOverlapStay.add(this.detectCollision.bind(this));
@@ -54,16 +54,24 @@ export class MotionControllerHelper extends BaseScriptComponent {
 
         var request = MotionController.HapticRequest.create()
 
-        if (distToBox < 50) { 
-            request.hapticFeedback = MotionController.HapticFeedback.VibrationHigh
+        if (distToBox < 200) { 
+          request.hapticFeedback = MotionController.HapticFeedback.VibrationHigh
+          request.duration = 0.1
+          this.controller.invokeHaptic(request)
+        } else if (distToBox < 500){
+          request.hapticFeedback = MotionController.HapticFeedback.VibrationMedium
+          request.duration = 0.1
+          this.controller.invokeHaptic(request)
         } else {
-            request.hapticFeedback = MotionController.HapticFeedback.VibrationLow
-        }
+          request.hapticFeedback = MotionController.HapticFeedback.VibrationLow
+          request.duration = 0.1
+          this.controller.invokeHaptic(request)
+        } 
 
         // request.hapticFeedback = MotionController.HapticFeedback.VibrationLow
         
-        request.duration = 0.1
-        this.controller.invokeHaptic(request)
+        // request.duration = 0.1
+        // this.controller.invokeHaptic(request)
     }
   }
 }
