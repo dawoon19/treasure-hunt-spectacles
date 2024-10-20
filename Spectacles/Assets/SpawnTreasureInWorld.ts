@@ -25,12 +25,12 @@ export class NewScript extends BaseScriptComponent {
     onAwake() {
         this.chooseTreasurePosition();
 
-        this.setTreasureBound();
+        //this.setTreasureBound();
         
         
         
-        //this.spawnPosition = new vec3(-100, 0, -200);
-        //this.targetObject.getTransform().setWorldPosition(this.spawnPosition);
+        this.spawnPosition = new vec3(100, 0, -300);
+        this.targetObject.getTransform().setWorldPosition(this.spawnPosition);
         
         // create update event
         this.createEvent("UpdateEvent").bind(this.onUpdate.bind(this));
@@ -63,6 +63,10 @@ export class NewScript extends BaseScriptComponent {
     
     getTreasurePosition() {
         return this.spawnPosition;
+    }
+    
+    setTreasurePosition(pos) {
+        this.targetObject.getTransform().setWorldPosition(pos);
     }
     
     onUpdate() {

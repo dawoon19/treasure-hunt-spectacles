@@ -100,6 +100,9 @@ function spawnOnRaycastResult(rayCastRes) {
 
         var transform = script.spawner.transformGetters[classification][spawnerIdx].getTransform(pos, normal);
         var success = spawnerObject.spawnObject(transform.position, transform.rotation, 0.0, 1.0);
+        
+        //Added this line
+        script.spawnScript.setTreasurePosition(transform.position);
         return success;
     }
     return false;
