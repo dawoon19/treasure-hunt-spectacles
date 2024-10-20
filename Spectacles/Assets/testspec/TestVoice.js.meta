@@ -24,7 +24,9 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    audio: false
     mch: false
+    tts: false
     vmlModule: false
   ScriptTypesHidden:
     {}
@@ -33,6 +35,8 @@
       controller: !<reference.MotionControllerHelper> 00000000-0000-0000-0000-000000000000
       MotionControllerHelper: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
       mch: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      tts: !<reference.TextToSpeechModule> 00000000-0000-0000-0000-000000000000
+      audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
