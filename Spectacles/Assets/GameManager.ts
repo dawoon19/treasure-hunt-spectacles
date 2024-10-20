@@ -60,24 +60,24 @@ export class GameManager extends BaseScriptComponent {
         }
         
         
-        if (this.moneyChestCompleted && !this.moneyChestChecked) {
-            this.spawnScript.found = false;
-            this.spawnScript.targetObject = this.minigame;
-            this.spawnScript.chooseTreasurePosition();
-            this.moneyChestChecked = true;
+        // if (this.moneyChestCompleted && !this.moneyChestChecked) {
+        //     this.spawnScript.found = false;
+        //     this.spawnScript.targetObject = this.minigame;
+        //     this.spawnScript.chooseTreasurePosition();
+        //     this.moneyChestChecked = true;
             
-        }
-        else if (this.minigameCompleted && !this.minigameChestChecked) {
-            this.spawnScript.found = false;
-            this.spawnScript.targetObject = this.pinata;
-            this.spawnScript.chooseTreasurePosition();
-            this.minigameChestChecked = true;
-            this.detector.enabled = true;
-        }
-        else if (this.pinataCompleted && !this.pinataChestChecked) {
-            this.pinataChestChecked = true;
-            this.detector.enabled = true;
-        }
+        // }
+        // else if (this.minigameCompleted && !this.minigameChestChecked) {
+        //     this.spawnScript.found = false;
+        //     this.spawnScript.targetObject = this.pinata;
+        //     this.spawnScript.chooseTreasurePosition();
+        //     this.minigameChestChecked = true;
+        //     this.detector.enabled = true;
+        // }
+        // else if (this.pinataCompleted && !this.pinataChestChecked) {
+        //     this.pinataChestChecked = true;
+        //     this.detector.enabled = true;
+        // }
         
         
         

@@ -53,8 +53,8 @@ export class NewScript extends BaseScriptComponent {
         } else {
             frontOrBackZ = 1;
         }
-        const distX = MathUtils.randomRange(300, 800);
-        const distZ = MathUtils.randomRange(300, 800);
+        const distX = MathUtils.randomRange(200, 600);
+        const distZ = MathUtils.randomRange(200, 600);
         const finalPosition = new vec3(distX * frontOrBackX, -50, distZ * frontOrBackZ);
         this.targetObject.getTransform().setWorldPosition(finalPosition);
         this.spawnPosition = finalPosition;
@@ -78,7 +78,7 @@ export class NewScript extends BaseScriptComponent {
         //      this.targetObject.getTransform().getWorldPosition()  ));
         var distanceToTreasure = this.cameraObject.getTransform().getWorldPosition().distance(this.targetObject.getTransform().getWorldPosition());
         //print(distanceToTreasure);   
-        if (distanceToTreasure < 100) {
+        if (distanceToTreasure < 200) {
             this.targetObject.enabled = true;
             //Added this line for game manager tracking
             this.found = true;

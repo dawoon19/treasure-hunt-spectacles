@@ -291,7 +291,7 @@
     - fdb4c73c-5d13-44f1-9a2e-60420eee04a6: c239866a-1855-4e73-ba78-32bc1b91ff83
     - fdde0d7d-681c-49b1-9c75-1dea3578fb11: 38ba2e0c-a196-4376-8dc8-6ec89323f11b
   Name: MotionControllerHelperPanda
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -948,7 +948,7 @@
   PrefabRemaps:
     []
   Name: RedPanda__ADD_TO_SCENE
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -2449,7 +2449,7 @@
   PrefabRemaps:
     []
   Name: TreasureBound
-  Enabled: true
+  Enabled: false
   Layers: 2
   LocalTransform:
     position: {x: 25.000000, y: -6.000000, z: -70.000000}
@@ -5015,7 +5015,7 @@
     - ea87ae03-6d2f-4af2-8885-38e54466fe00: ce49abc5-6d68-4634-9f3f-5819ce68ffb8
     - f2b2b4ef-3845-4118-88eb-ea7f0c80be19: fff3d258-ed19-4a1f-823d-ab06a62ae540
   Name: MotionControllerHelper
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -6589,8 +6589,8 @@
   Enabled: false
   Layers: 1
   LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    position: {x: 0.000000, y: 0.000000, z: -44.224594}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
     scale: {x: 5.000000, y: 5.000000, z: 1.000000}
     hasSegmentScaleCompensation: false
   Children:

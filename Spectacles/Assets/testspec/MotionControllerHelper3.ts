@@ -72,7 +72,7 @@ export class MotionControllerHelper3 extends BaseScriptComponent {
 
   onUpdate() {
     this.textUI.text = "Points: " + globalThis.catchPoints.toString();
-    if (globalThis.catchPoints >= 5 && !globalThis.completed3) {
+    if (globalThis.catchPoints >= 10 && !globalThis.completed3) {
       globalThis.completed3 = true;
       this.childObject.enabled = false;
       this.catchingGame.enabled = false;

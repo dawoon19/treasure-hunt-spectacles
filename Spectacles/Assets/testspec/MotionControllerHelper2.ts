@@ -28,7 +28,7 @@ export class MotionControllerHelper2 extends BaseScriptComponent {
 
   onAwake() {
         this.detector.enabled = false;
-    this.pinataHealth = 100;
+    this.pinataHealth = 300;
     var options = MotionController.Options.create();
     options.motionType = MotionController.MotionType.SixDoF;
     this.controller = MotionControllerModule.getController(options);
