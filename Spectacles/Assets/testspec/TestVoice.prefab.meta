@@ -1,0 +1,57 @@
+- !<AssetImportMetadata/eaa6cd4d-3c50-4c09-b240-1deff0c4d259>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 4b456854-5243-4773-8c9d-94e8b01d6067
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 4b456854-5243-4773-8c9d-94e8b01d6067
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    ObjectPrefab: !<own> fdbf2ea8-600f-492f-9f48-7974dacab53d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/1c43beb6-d2fb-41ac-854f-4aa3aed833c6>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefab/45e6cdc4-7d34-4715-9c1c-5edd7722ae9f>
+  PackagePath: ""
+  objects:
+    - !<own> 8c1a80e4-3139-41cc-831d-489d7d11fdc1
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/8c1a80e4-3139-41cc-831d-489d7d11fdc1>
+  PrefabRemaps:
+    []
+  Name: TestVoice
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b7f151ef-3f6b-4491-9055-15d78dcaca50
+- !<ScriptComponent/b7f151ef-3f6b-4491-9055-15d78dcaca50>
+  PrefabRemaps:
+    []
+  Name: TestVoice
+  Enabled: true
+  ScriptAsset: !<reference> 528ba080-3336-4045-925d-93f1d182627a
+  ScriptInputsDefault:
+    vmlModule: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      vmlModule: !<reference.VoiceMLModule> fb17a560-2d1d-427c-afea-02df4bccff6d
+      mch: !<reference.ScriptComponent> 203252b8-ac05-4a2a-bb28-f1b12cd533c1
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/fdbf2ea8-600f-492f-9f48-7974dacab53d>
+  SourceRemaps:
+    - 89fec5c6-187f-4f7d-aba2-a99cb56ca060: 8c1a80e4-3139-41cc-831d-489d7d11fdc1
+    - ec8c4ed7-388d-4e07-a71e-44bf2e54da67: b7f151ef-3f6b-4491-9055-15d78dcaca50
+  SourceState: !<own> 45e6cdc4-7d34-4715-9c1c-5edd7722ae9f

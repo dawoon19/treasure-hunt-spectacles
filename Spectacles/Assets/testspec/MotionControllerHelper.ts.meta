@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/22141304-3be2-4f53-a948-fc8cd58f8816>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 84af6140-7ca5-4d9d-90d7-12c69fc84535
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 84af6140-7ca5-4d9d-90d7-12c69fc84535
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 035298ed-3ab2-4d3e-8c6d-f889eb8cbce1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/50cd2e27-5446-4cef-8326-b5ec7b281715>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/035298ed-3ab2-4d3e-8c6d-f889eb8cbce1>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    childCollider: false
+    childObject: false
+    treasureBound: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - childObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      childCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      treasureBound: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject childObject
+    - // @input Component.ColliderComponent childCollider
+    - // @input SceneObject treasureBound
