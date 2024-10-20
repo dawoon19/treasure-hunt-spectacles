@@ -2,7 +2,6 @@
   PackagePath: ""
   objects:
     - !<own> 2d792848-49e7-4d47-b261-812e5882fe29
-    - !<own> 59d4c6ad-3d24-4ba4-82bf-645a1104a61c
     - !<own> 00000000-0000-0065-0000-000000000064
     - !<own> 0005641c-028d-459a-0000-000000014b4d
     - !<own> 597f6fa4-23e5-4230-9e74-1ece142cd000
@@ -1690,21 +1689,6 @@
     - !<own> 20aefedd-9054-4e5b-8238-096c98658124
   Components:
     []
-- !<SceneObject/59d4c6ad-3d24-4ba4-82bf-645a1104a61c>
-  PrefabRemaps:
-    []
-  Name: GameManager
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> a0d9c034-8700-4d25-a169-6516e0fd9398
 - !<SceneObject/5a0e02fd-7a97-405a-a598-c4e90bd00763>
   PrefabRemaps:
     []
@@ -2595,22 +2579,6 @@
     - !<own> be831966-fdca-4965-ab18-bb0115dc2dec
   Components:
     []
-- !<ScriptComponent/a0d9c034-8700-4d25-a169-6516e0fd9398>
-  PrefabRemaps:
-    []
-  Name: Untitled TypeScript
-  Enabled: true
-  ScriptAsset: !<reference> 674d9e9b-836f-4d9b-82a3-a2c3984f850c
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      {}
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/a0fa1a48-9b6d-4aca-9229-8dea24f25383>
   PrefabRemaps:
     - 94bf6c5a-964a-48e0-96f6-db40e94e006c: 64378c9f-43a6-4203-93eb-d0153f8a5e9a

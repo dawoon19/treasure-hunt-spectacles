@@ -12,38 +12,13 @@
   ImporterSettings: !<AssetImporterSettings/7fa1025d-9b2f-4aa9-b3f4-9dd349de3388>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ScriptComponent/1733a8b7-ad4d-476a-b8c9-17a98c7ea796>
-  PrefabRemaps:
-    []
-  Name: TreasureChestAnimation
-  Enabled: true
-  ScriptAsset: !<reference> 5566abcb-042e-47b2-adee-e453749ab1ca
-  ScriptInputsDefault:
-    {}
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      sparklesPrefab: !<reference.ObjectPrefab> 7cc996e4-e93c-45a4-b08a-f28a878a0950
-      trailEffectPrefab: !<reference.ObjectPrefab> 2b243d93-df2a-4d9a-9f9b-898782e49946
-      chestPrefab: !<reference.ObjectPrefab> 728c24a3-841f-4d79-b019-a2408aed41f2
-      audio: !<reference.AudioComponent> 6caf2e9d-bd97-4e5c-99c5-c3e41bf24860
-  ScriptTypes:
-    "":
-      {}
-- !<ObjectPrefab/29d5a273-a277-48b3-affe-e01d2636a899>
+- !<ObjectPrefab/13091ec8-3dd7-4726-9458-715b20a84744>
   PackagePath: ""
   objects:
-    - !<own> ff1af8d1-18a2-46b3-8cc7-ad1dcf5d8377
+    - !<own> d27827cf-581e-4fcc-ba28-f31165b8c181
   LazyLoading: false
   RetainAssets: true
-- !<ObjectPrefabAssetData/62da4614-66fa-4cb1-96a9-96094a177b56>
-  SourceRemaps:
-    - 100787a9-1b1c-4191-8879-606d1db9cdb7: 6caf2e9d-bd97-4e5c-99c5-c3e41bf24860
-    - 5fe90892-f5d0-4ee9-a213-b7447b64f170: ff1af8d1-18a2-46b3-8cc7-ad1dcf5d8377
-    - ff384001-f539-4113-be76-f4b35357096f: 1733a8b7-ad4d-476a-b8c9-17a98c7ea796
-  SourceState: !<own> 29d5a273-a277-48b3-affe-e01d2636a899
-- !<AudioComponent/6caf2e9d-bd97-4e5c-99c5-c3e41bf24860>
+- !<AudioComponent/2eb4b4fe-9c7b-44e0-8708-ef400f7c32e3>
   PrefabRemaps:
     []
   Name: Audio
@@ -60,7 +35,32 @@
   MaxDistance: 100.000000
   EnableDirectivityEffect: false
   EnablePositionEffect: false
-- !<SceneObject/ff1af8d1-18a2-46b3-8cc7-ad1dcf5d8377>
+- !<ScriptComponent/5d75bfe3-3195-49de-95c7-945fd049defb>
+  PrefabRemaps:
+    []
+  Name: TreasureChestAnimation
+  Enabled: true
+  ScriptAsset: !<reference> 5566abcb-042e-47b2-adee-e453749ab1ca
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sparklesPrefab: !<reference.ObjectPrefab> 7cc996e4-e93c-45a4-b08a-f28a878a0950
+      trailEffectPrefab: !<reference.ObjectPrefab> 2b243d93-df2a-4d9a-9f9b-898782e49946
+      chestPrefab: !<reference.ObjectPrefab> 728c24a3-841f-4d79-b019-a2408aed41f2
+      audio: !<reference.AudioComponent> 2eb4b4fe-9c7b-44e0-8708-ef400f7c32e3
+  ScriptTypes:
+    "":
+      {}
+- !<ObjectPrefabAssetData/62da4614-66fa-4cb1-96a9-96094a177b56>
+  SourceRemaps:
+    - 100787a9-1b1c-4191-8879-606d1db9cdb7: 2eb4b4fe-9c7b-44e0-8708-ef400f7c32e3
+    - 5fe90892-f5d0-4ee9-a213-b7447b64f170: d27827cf-581e-4fcc-ba28-f31165b8c181
+    - ff384001-f539-4113-be76-f4b35357096f: 5d75bfe3-3195-49de-95c7-945fd049defb
+  SourceState: !<own> 13091ec8-3dd7-4726-9458-715b20a84744
+- !<SceneObject/d27827cf-581e-4fcc-ba28-f31165b8c181>
   PrefabRemaps:
     []
   Name: MoneyChestOnSpawn
@@ -74,5 +74,5 @@
   Children:
     []
   Components:
-    - !<own> 1733a8b7-ad4d-476a-b8c9-17a98c7ea796
-    - !<own> 6caf2e9d-bd97-4e5c-99c5-c3e41bf24860
+    - !<own> 5d75bfe3-3195-49de-95c7-945fd049defb
+    - !<own> 2eb4b4fe-9c7b-44e0-8708-ef400f7c32e3
