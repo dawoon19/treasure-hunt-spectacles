@@ -485,7 +485,7 @@
   MeshShadowMode: None
   ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
   ShadowDensity: 1.000000
-  Text: Tap the phone to hear me speak!
+  Text: "I'm here to cheer you on!"
   Editable: false
   ShowEditingPreview: true
   TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
@@ -578,7 +578,8 @@
     {}
   ScriptInputs:
     "":
-      {}
+      pandaObj: !<reference.SceneObject> 75dbf3a2-b3d5-4286-b455-2929620d92b9
+      frameObj: !<reference.SceneObject> cf8f0a93-5319-43fc-a503-5a5f456827d4
   ScriptTypes:
     "":
       {}
@@ -719,7 +720,7 @@
   PrefabRemaps:
     []
   Name: RedPanda__ADD_TO_SCENE
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform:
     position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -1371,7 +1372,7 @@
     "":
       worldCursor: !<MappingBased.CursorController> 00000000-0000-0000-0000-000000000000
       autoShowHide: false
-      innerSize: !<Vec2> {x: 20.000000, y: 0.500000}
+      innerSize: !<Vec2> {x: 25.000000, y: 0.500000}
       border: !<float> 2.000000
       constantPadding: !<Vec2> {x: 0.000000, y: 0.000000}
       allowScaling: true

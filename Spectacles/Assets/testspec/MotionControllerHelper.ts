@@ -54,11 +54,11 @@ export class MotionControllerHelper extends BaseScriptComponent {
 
         var request = MotionController.HapticRequest.create()
 
-        if (distToBox < 200) { 
+        if (distToBox < 300) { 
           request.hapticFeedback = MotionController.HapticFeedback.VibrationHigh
           request.duration = 0.1
           this.controller.invokeHaptic(request)
-        } else if (distToBox < 500){
+        } else if (distToBox < 600){
           request.hapticFeedback = MotionController.HapticFeedback.VibrationMedium
           request.duration = 0.1
           this.controller.invokeHaptic(request)

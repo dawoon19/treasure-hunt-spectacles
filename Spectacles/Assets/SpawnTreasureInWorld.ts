@@ -23,13 +23,14 @@ export class NewScript extends BaseScriptComponent {
     treasureBound: SceneObject;
     
     onAwake() {
-        this.chooseTreasurePosition();
+        // this.chooseTreasurePosition();
 
-        //this.setTreasureBound();
+
         
         
         
-        this.spawnPosition = new vec3(100, 0, -300);
+        this.spawnPosition = new vec3(0, 0, -300);
+        this.setTreasureBound();
         this.targetObject.getTransform().setWorldPosition(this.spawnPosition);
         
         // create update event
@@ -70,7 +71,7 @@ export class NewScript extends BaseScriptComponent {
     }
     
     onUpdate() {
-        //print(this.cameraObject.getTransform().getWorldPosition().distance(
+        // print(this.cameraObject.getTransform().getWorldPosition().distance(
         //      this.targetObject.getTransform().getWorldPosition()  ));
         var distanceToTreasure = this.cameraObject.getTransform().getWorldPosition().distance(this.targetObject.getTransform().getWorldPosition());
         //print(distanceToTreasure);   

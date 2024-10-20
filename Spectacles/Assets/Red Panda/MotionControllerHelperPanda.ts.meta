@@ -24,14 +24,16 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    {}
+    frameObj: false
+    pandaObj: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    -
-      {}
+    - pandaObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      frameObj: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
-    []
+    - // @input SceneObject pandaObj
+    - // @input SceneObject frameObj
