@@ -26,6 +26,7 @@
   ScriptInputsHidden:
     cameraObject: false
     filterEnabled: false
+    found: false
     targetObject: false
     treasureBound: false
   ScriptTypesHidden:
@@ -35,6 +36,7 @@
       filterEnabled: false
       cameraObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       treasureBound: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      found: false
   ScriptTypes:
     -
       {}
@@ -43,3 +45,4 @@
     - // @input SceneObject targetObject
     - // @input bool filterEnabled
     - // @input SceneObject treasureBound
+    - // @input bool found

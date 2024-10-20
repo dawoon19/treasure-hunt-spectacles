@@ -28,6 +28,7 @@
     catchingGame: false
     childCollider: false
     childObject: false
+    detector: false
     textUI: false
     trailEffectPrefab: false
   ScriptTypesHidden:
@@ -39,6 +40,7 @@
       audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
       textUI: !<reference.Text> 00000000-0000-0000-0000-000000000000
       catchingGame: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      detector: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -47,5 +49,6 @@
     - // @input Component.ColliderComponent childCollider
     - // @input SceneObject catchingGame
     - // @input Asset.ObjectPrefab trailEffectPrefab
+    - // @input SceneObject detector
     - // @input Component.AudioComponent audio
     - // @input Component.Text textUI

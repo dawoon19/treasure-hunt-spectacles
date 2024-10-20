@@ -24,14 +24,34 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
-    {}
+    detector: false
+    detectorScript: false
+    minigame: false
+    minigameScript: false
+    moneyChest: false
+    pinata: false
+    pinataScript: false
+    spawnScript: false
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    -
-      {}
+    - spawnScript: !<MappingBased.SpawnTreasureInWorld> 00000000-0000-0000-0000-000000000000
+      moneyChest: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      pinata: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      minigame: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      detectorScript: !<MappingBased.MotionControllerHelper> 00000000-0000-0000-0000-000000000000
+      pinataScript: !<MappingBased.MotionControllerHelper2> 00000000-0000-0000-0000-000000000000
+      minigameScript: !<MappingBased.MotionControllerHelper3> 00000000-0000-0000-0000-000000000000
+      detector: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
   InputLines:
-    []
+    - // @input SceneObject moneyChest
+    - // @input SceneObject pinata
+    - // @input SceneObject minigame
+    - // @input SceneObject detector
+    - // @input SpawnTreasureInWorld spawnScript
+    - // @input MotionControllerHelper detectorScript
+    - // @input MotionControllerHelper2 pinataScript
+    - // @input MotionControllerHelper3 minigameScript

@@ -5,7 +5,7 @@ declare global {
 }
 
 @component
-export class MotionControllerHelper extends BaseScriptComponent {
+export class MotionControllerHelper3 extends BaseScriptComponent {
   private transform;
   public controller;
 
@@ -20,6 +20,9 @@ export class MotionControllerHelper extends BaseScriptComponent {
 
     @input 
     trailEffectPrefab: ObjectPrefab;
+    
+        @input
+  detector: SceneObject;
 
     @input
     audio: AudioComponent;
@@ -30,6 +33,7 @@ export class MotionControllerHelper extends BaseScriptComponent {
     private completed: boolean;
 
   onAwake() {
+        this.detector.enabled = false;
     this.completed = false;
     globalThis.catchPoints = 0;
     var options = MotionController.Options.create();
@@ -70,6 +74,10 @@ export class MotionControllerHelper extends BaseScriptComponent {
       this.audio.play(1);
     }
   }
+    
+    getTaskCompleted() {
+        return this.completed;
+    }
 }
 
 //   testFunc() {

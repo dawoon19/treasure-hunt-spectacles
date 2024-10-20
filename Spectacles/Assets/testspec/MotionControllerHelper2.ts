@@ -1,7 +1,7 @@
 const MotionControllerModule = require('LensStudio:MotionControllerModule');
 
 @component
-export class MotionControllerHelper extends BaseScriptComponent {
+export class MotionControllerHelper2 extends BaseScriptComponent {
   private transform;
   public controller;
 
@@ -19,10 +19,15 @@ export class MotionControllerHelper extends BaseScriptComponent {
 
     @input
     audio: AudioComponent;
+    
+    @input
+  detector: SceneObject;
 
   private pinataHealth;
+  private taskCompleted = false;
 
   onAwake() {
+        this.detector.enabled = false;
     this.pinataHealth = 100;
     var options = MotionController.Options.create();
     options.motionType = MotionController.MotionType.SixDoF;
@@ -60,10 +65,15 @@ export class MotionControllerHelper extends BaseScriptComponent {
         if (this.pinataHealth <= 0) { 
             this.targetObj.enabled = false
             this.createObjectsFromPrefab(this.trailEffectPrefab)
+            this.taskCompleted = true;
             this.audio.play(1);
         }
     }
   }
+    
+   getTaskCompleted() {
+        return this.taskCompleted;
+    }
 }
 
 //   testFunc() {

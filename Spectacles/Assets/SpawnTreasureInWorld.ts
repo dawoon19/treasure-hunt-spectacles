@@ -22,16 +22,18 @@ export class NewScript extends BaseScriptComponent {
     @input
     treasureBound: SceneObject;
     
+    @input
+    found: boolean;
+    
     onAwake() {
-        // this.chooseTreasurePosition();
+        this.found = false;
+        //this.chooseTreasurePosition();
 
-
         
         
-        
-        this.spawnPosition = new vec3(0, 0, -300);
-        this.setTreasureBound();
-        this.targetObject.getTransform().setWorldPosition(this.spawnPosition);
+       
+        //this.spawnPosition = new vec3(0, 0, -300);
+        //this.targetObject.getTransform().setWorldPosition(this.spawnPosition);
         
         // create update event
         this.createEvent("UpdateEvent").bind(this.onUpdate.bind(this));
@@ -56,6 +58,7 @@ export class NewScript extends BaseScriptComponent {
         const finalPosition = new vec3(distX * frontOrBackX, -50, distZ * frontOrBackZ);
         this.targetObject.getTransform().setWorldPosition(finalPosition);
         this.spawnPosition = finalPosition;
+        this.setTreasureBound();
     }
 
     setTreasureBound() {
@@ -77,6 +80,14 @@ export class NewScript extends BaseScriptComponent {
         //print(distanceToTreasure);   
         if (distanceToTreasure < 100) {
             this.targetObject.enabled = true;
+            //Added this line for game manager tracking
+            this.found = true;
+            //Activate the 2nd and 3rd treasure chests
+            
         }
+    }
+    
+    getTaskCompleted() {
+        return this.found;
     }
 }
