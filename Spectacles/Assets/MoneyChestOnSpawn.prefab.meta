@@ -19,7 +19,7 @@
   Enabled: true
   ScriptAsset: !<reference> 5566abcb-042e-47b2-adee-e453749ab1ca
   ScriptInputsDefault:
-    audio: true
+    {}
   ScriptTypesDefault:
     {}
   ScriptInputs:
@@ -27,7 +27,7 @@
       sparklesPrefab: !<reference.ObjectPrefab> 7cc996e4-e93c-45a4-b08a-f28a878a0950
       trailEffectPrefab: !<reference.ObjectPrefab> 2b243d93-df2a-4d9a-9f9b-898782e49946
       chestPrefab: !<reference.ObjectPrefab> 728c24a3-841f-4d79-b019-a2408aed41f2
-      audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      audio: !<reference.AudioComponent> 6caf2e9d-bd97-4e5c-99c5-c3e41bf24860
   ScriptTypes:
     "":
       {}
