@@ -1,0 +1,21 @@
+- !<AssetImportMetadata/bcdc50d3-3f0f-4332-9c88-aac575fd152a>
+  ImportedAssetIds:
+    FileMesh: !<reference> b3cf5b4b-63a5-4407-b63b-f39df51b63ba
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> b3cf5b4b-63a5-4407-b63b-f39df51b63ba
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings/d4541607-9814-4fdd-bdb7-8cf34ea3704c>
+    ModifiedVertexFormats:
+      bitangent: Float
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings/b4d0cb77-eb59-4979-b9fd-26cda5fe6a63>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

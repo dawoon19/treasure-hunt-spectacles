@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/94566b7c-75ae-4fb8-a742-cba49e4f7046>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 7d3340fd-25bd-4072-bc8f-781acbf459a3
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 7d3340fd-25bd-4072-bc8f-781acbf459a3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    JavaScriptAsset: !<own> 6a2094a9-564e-47c0-937c-b6cc3c80ff33
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/18497086-2bf3-41c6-9065-1d5758afce9c>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/6a2094a9-564e-47c0-937c-b6cc3c80ff33>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    component: false
+    dice: false
+    direction: false
+    funcName: false
+    propName: false
+    target: false
+    type: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - dice: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      target: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      direction: up
+      component: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      type: 0
+      propName: ""
+      funcName: ""
+  ScriptTypes:
+    -
+      {}

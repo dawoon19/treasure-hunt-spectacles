@@ -1,0 +1,42 @@
+- !<AssetImportMetadata/7b35152a-97bb-437a-a16b-571177002f0f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5566abcb-042e-47b2-adee-e453749ab1ca
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5566abcb-042e-47b2-adee-e453749ab1ca
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> f403ec79-37e8-4f5b-a7ef-06fc6b957dcf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/c9c15a20-0f2b-46b7-acd2-0a447b161fdb>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f403ec79-37e8-4f5b-a7ef-06fc6b957dcf>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    chestPrefab: false
+    sparklesPrefab: false
+    trailEffectPrefab: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - chestPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      trailEffectPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      sparklesPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.ObjectPrefab sparklesPrefab
+    - // @input Asset.ObjectPrefab trailEffectPrefab
+    - // @input Asset.ObjectPrefab chestPrefab
