@@ -8,7 +8,7 @@
   To: 6.250000
   Offset: 0.000000
   FPS: 30.000000
-  NumCycles: -1
+  NumCycles: 1
   Reversed: false
   Disabled: false
   PostInfinity: Cycle

@@ -1,5 +1,5 @@
 - !<ObjectPrefab/e39857ff-16f0-4ef8-b32c-9cb6a323d87e>
-  PackagePath: AudienceApplauseSFX__PLACE_IN_OBJECTS_PANEL
+  PackagePath: ""
   objects:
     - !<own> 112b1176-9b55-47a8-bc25-041c1f61e478
   LazyLoading: false

@@ -24,6 +24,7 @@
   CurrentVisibility: Editable
   MaxVisibility: Editable
   ScriptInputsHidden:
+    audio: false
     chestPrefab: false
     sparklesPrefab: false
     trailEffectPrefab: false
@@ -33,6 +34,7 @@
     - chestPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
       trailEffectPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
       sparklesPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}
@@ -40,3 +42,4 @@
     - // @input Asset.ObjectPrefab sparklesPrefab
     - // @input Asset.ObjectPrefab trailEffectPrefab
     - // @input Asset.ObjectPrefab chestPrefab
+    - // @input Component.AudioComponent audio

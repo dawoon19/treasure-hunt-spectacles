@@ -1,5 +1,5 @@
 - !<ObjectPrefab/0979f814-623a-478a-8dee-d8fd9dccff55>
-  PackagePath: Dice_Roll_PLACE_IN_OBJECTS_PANEL
+  PackagePath: ""
   objects:
     - !<own> ce12d12c-2d74-44c0-991c-e032ca80cf1f
   LazyLoading: false
