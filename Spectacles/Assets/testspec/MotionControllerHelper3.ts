@@ -33,8 +33,10 @@ export class MotionControllerHelper3 extends BaseScriptComponent {
     private completed: boolean;
 
   onAwake() {
+
         this.detector.enabled = false;
     this.completed = false;
+    globalThis.completed3 = false;
     globalThis.catchPoints = 0;
     var options = MotionController.Options.create();
     options.motionType = MotionController.MotionType.SixDoF;
@@ -52,6 +54,10 @@ export class MotionControllerHelper3 extends BaseScriptComponent {
     this.createEvent("UpdateEvent").bind(this.onUpdate.bind(this));
   }
 
+  getTaskCompleted3() {
+    return this.completed;
+}
+
   updateTransform(position, rotation) {
     this.transform.setWorldPosition(position);
     this.transform.setWorldRotation(rotation);
@@ -66,8 +72,8 @@ export class MotionControllerHelper3 extends BaseScriptComponent {
 
   onUpdate() {
     this.textUI.text = "Points: " + globalThis.catchPoints.toString();
-    if (globalThis.catchPoints >= 5 && !this.completed) {
-      this.completed = true;
+    if (globalThis.catchPoints >= 5 && !globalThis.completed3) {
+      globalThis.completed3 = true;
       this.childObject.enabled = false;
       this.catchingGame.enabled = false;
       this.createObjectsFromPrefab(this.trailEffectPrefab);
@@ -75,9 +81,7 @@ export class MotionControllerHelper3 extends BaseScriptComponent {
     }
   }
     
-    getTaskCompleted() {
-        return this.completed;
-    }
+
 }
 
 //   testFunc() {

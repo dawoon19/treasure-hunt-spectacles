@@ -41,7 +41,6 @@ export class GameManager extends BaseScriptComponent {
         //}
         
         //print(this.spawnScript.completed);
-        // print(this.minigameScript.getTaskCompleted());
         this.spawnScript.targetObject = this.moneyChest;
         this.spawnScript.chooseTreasurePosition();
         this.createEvent("UpdateEvent").bind(this.onUpdate.bind(this));
@@ -49,8 +48,17 @@ export class GameManager extends BaseScriptComponent {
 
     onUpdate() {
         this.moneyChestCompleted = this.spawnScript.getTaskCompleted();
-        this.minigameCompleted = this.minigameScript.getTaskCompleted();
-        this.pinataCompleted = this.pinataScript.getTaskCompleted();
+        if (this.minigame.enabled) {
+            this.minigameCompleted =  this.minigameScript.getTaskCompleted3();
+        } else {
+            this.minigameCompleted = false;
+        }
+        if (this.pinata.enabled) {
+            this.pinataCompleted = this.pinataScript.getTaskCompleted2();
+        } else {
+            this.pinataCompleted = false;
+        }
+        
         
         if (this.moneyChestCompleted && !this.moneyChestChecked) {
             this.spawnScript.found = false;
@@ -70,28 +78,6 @@ export class GameManager extends BaseScriptComponent {
             this.pinataChestChecked = true;
             this.detector.enabled = true;
         }
-        
-        //this.chest1Completed = this.chest3Script.getTaskCompleted();
-        //this.chest3Completed = this.chest3Script.getTaskCompleted();   
-        //this.chest2Completed = this.chest2Script.getTaskCompleted();
-        
-        //if (this.chest1Completed && this.spawnScript.found) {
-           
-         //   this.spawnScript.found = false;
-         //   this.spawnScript.targetObject = this.chest2;
-         //   this.spawnScript.chooseTreasurePosition();
-        //}
-        //else if (this.chest2Completed && this.spawnScript.found) {
-            
-        //    this.spawnScript.found = false;
-        //    this.spawnScript.targetObject = this.chest3;
-        //    this.spawnScript.chooseTreasurePosition();
-       // }
-       // else if (this.chest3Completed && this.spawnScript.found) {
-        //    this.chest3Completed = true;
-            
-       // }
-        
         
         
         

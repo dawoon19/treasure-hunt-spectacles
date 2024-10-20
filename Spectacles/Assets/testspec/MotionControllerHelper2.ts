@@ -39,6 +39,9 @@ export class MotionControllerHelper2 extends BaseScriptComponent {
     // make sure its only detected for "layer 2" objects
     this.childCollider.onCollisionExit.add(this.detectCollision.bind(this));
   }
+  getTaskCompleted2() {
+    return this.taskCompleted;
+}
 
   updateTransform(position, rotation) {
     this.transform.setWorldPosition(position);
@@ -65,15 +68,13 @@ export class MotionControllerHelper2 extends BaseScriptComponent {
         if (this.pinataHealth <= 0) { 
             this.targetObj.enabled = false
             this.createObjectsFromPrefab(this.trailEffectPrefab)
-            this.taskCompleted = true;
+            globalThis.completed2 = true;
             this.audio.play(1);
         }
     }
   }
     
-   getTaskCompleted() {
-        return this.taskCompleted;
-    }
+
 }
 
 //   testFunc() {
