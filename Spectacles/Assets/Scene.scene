@@ -12,7 +12,6 @@
     - !<own> d1ff83dc-66b6-479f-9941-3cf2ba5945de
     - !<own> a0fa1a48-9b6d-4aca-9229-8dea24f25383
     - !<own> 538dc83d-2119-4ec2-aa5c-32f89fd1e0fc
-    - !<own> 0fb83d5b-7939-40d4-8069-0b91b070eacb
   layers: !<Layers/267ee9a7-aff2-4f9d-9a49-f71214747d03>
     userLayers:
       - |
@@ -343,24 +342,6 @@
     - !<own> f680fdbc-824b-4c58-8c1b-f4bd29c1a1c2
   Components:
     []
-- !<SceneObject/0fb83d5b-7939-40d4-8069-0b91b070eacb>
-  PrefabRemaps:
-    - 0fb83d5b-7939-40d4-8069-0b91b070eacb: 4dcbaa2e-7546-4b7f-81f5-a1da1dcbeed2
-    - 727b5b02-6d0f-48d5-a928-1219334621c5: b9f669ae-69c6-4976-a860-478e240de317
-    - d1fe27e0-480c-4a72-a8ce-cb76f0283245: 649bd9eb-b807-491a-b8dd-a0540f1aec0e
-  Name: TTSController
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> d1fe27e0-480c-4a72-a8ce-cb76f0283245
-    - !<own> 727b5b02-6d0f-48d5-a928-1219334621c5
 - !<Skin/1033a248-c85a-41d6-8395-d6ee6abf289a>
   PrefabRemaps:
     []
@@ -2013,25 +1994,6 @@
     []
   Components:
     []
-- !<ScriptComponent/727b5b02-6d0f-48d5-a928-1219334621c5>
-  PrefabRemaps:
-    []
-  Name: TestVoice
-  Enabled: true
-  ScriptAsset: !<reference> 528ba080-3336-4045-925d-93f1d182627a
-  ScriptInputsDefault:
-    vmlModule: true
-  ScriptTypesDefault:
-    {}
-  ScriptInputs:
-    "":
-      vmlModule: !<reference.VoiceMLModule> fb17a560-2d1d-427c-afea-02df4bccff6d
-      tts: !<reference.TextToSpeechModule> 92f556f7-6a10-40d9-9d4b-721855daf96b
-      audio: !<reference.AudioComponent> d1fe27e0-480c-4a72-a8ce-cb76f0283245
-      mch: !<reference.ScriptComponent> 94bf6c5a-964a-48e0-96f6-db40e94e006c
-  ScriptTypes:
-    "":
-      {}
 - !<SceneObject/732acdae-935a-4246-9369-aa21ee3e4a01>
   PrefabRemaps:
     []
@@ -3329,23 +3291,6 @@
     - !<own> b38c3cfe-e967-4bbc-b4cf-4e10d69221aa
   Components:
     - !<own> 2084bab8-5f86-4659-b05d-12cf1a24ccc2
-- !<AudioComponent/d1fe27e0-480c-4a72-a8ce-cb76f0283245>
-  PrefabRemaps:
-    []
-  Name: Audio
-  Enabled: true
-  AudioTrack: !<reference> 00000000-0000-0000-0000-000000000000
-  EnableAutoplayLoop: true
-  Volume: 1.000000
-  EnableMixToSnap: true
-  RecordVolume: 1.000000
-  EnableSpatialAudio: false
-  EnableDistanceEffect: false
-  CurveType: Logarithm
-  MinDistance: 0.000000
-  MaxDistance: 100.000000
-  EnableDirectivityEffect: false
-  EnablePositionEffect: false
 - !<SceneObject/d1ff83dc-66b6-479f-9941-3cf2ba5945de>
   PrefabRemaps:
     - 18b43b4a-450c-49f0-b262-5353eeb2be75: 030710f0-8b1b-4968-b800-d4c19374519e

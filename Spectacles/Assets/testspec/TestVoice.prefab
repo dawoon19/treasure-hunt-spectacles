@@ -1,0 +1,38 @@
+- !<ObjectPrefab/4b456854-5243-4773-8c9d-94e8b01d6067>
+  PackagePath: ""
+  objects:
+    - !<own> 89fec5c6-187f-4f7d-aba2-a99cb56ca060
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/89fec5c6-187f-4f7d-aba2-a99cb56ca060>
+  PrefabRemaps:
+    []
+  Name: TestVoice
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ec8c4ed7-388d-4e07-a71e-44bf2e54da67
+- !<ScriptComponent/ec8c4ed7-388d-4e07-a71e-44bf2e54da67>
+  PrefabRemaps:
+    []
+  Name: TestVoice
+  Enabled: true
+  ScriptAsset: !<reference> 528ba080-3336-4045-925d-93f1d182627a
+  ScriptInputsDefault:
+    vmlModule: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      vmlModule: !<reference.VoiceMLModule> fb17a560-2d1d-427c-afea-02df4bccff6d
+      mch: !<reference.ScriptComponent> 203252b8-ac05-4a2a-bb28-f1b12cd533c1
+  ScriptTypes:
+    "":
+      {}
