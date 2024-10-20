@@ -12,75 +12,7 @@
   ImporterSettings: !<AssetImporterSettings/d6ae4742-cff7-4338-8f1d-7f579643ff4f>
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
-- !<ObjectPrefab/2e8fc746-3ef2-4551-a138-3d650b67edbd>
-  PackagePath: ""
-  objects:
-    - !<own> 5f36a178-85bb-4838-a889-82e73eba1238
-  LazyLoading: false
-  RetainAssets: true
-- !<SceneObject/3395639a-6c3b-4e62-b978-76dee2a77712>
-  PrefabRemaps:
-    []
-  Name: hat
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.034360, y: 18.085104, z: 0.171820}
-    rotation: {x: -7.912527, y: 0.000000, z: 0.000000}
-    scale: {x: 0.933776, y: 0.869694, z: 0.915467}
-    hasSegmentScaleCompensation: false
-  Children:
-    []
-  Components:
-    - !<own> d1d4271c-8309-4f5f-b5ee-8899467948d4
-    - !<own> d235a6ed-ed70-4864-a9d5-b6c29cf7c4ea
-- !<SceneObject/5f36a178-85bb-4838-a889-82e73eba1238>
-  PrefabRemaps:
-    []
-  Name: YellowHat
-  Enabled: true
-  Layers: 1
-  LocalTransform:
-    position: {x: 0.000000, y: 0.000000, z: 0.000000}
-    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
-    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
-    hasSegmentScaleCompensation: false
-  Children:
-    - !<own> 3395639a-6c3b-4e62-b978-76dee2a77712
-  Components:
-    - !<own> 7dbf5199-2cae-49f9-b8f8-21232cbb70f1
-- !<BodyComponent/7dbf5199-2cae-49f9-b8f8-21232cbb70f1>
-  PrefabRemaps:
-    []
-  Name: Physics Body
-  Enabled: true
-  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
-    FitVisual: true
-    Radius: 6.000000
-  Matter: !<reference> 00000000-0000-0000-0000-000000000000
-  Filter: !<reference> 00000000-0000-0000-0000-000000000000
-  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
-  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
-  EnableSmoothing: false
-  PositionTension: 30.000000
-  RotationTension: 30.000000
-  ForceCompound: false
-  Intangible: false
-  ShowCollider: false
-  Dynamic: true
-  BodySetting: Density
-  BodySettingValue: 1.000000
-  Damping: 0.150000
-  AngularDamping: 0.000000
-- !<ObjectPrefabAssetData/bde88c34-910b-4260-b062-ad49b4b4a48d>
-  SourceRemaps:
-    - b589b00f-f29a-42b7-a2be-6eb0a6a10676: 7dbf5199-2cae-49f9-b8f8-21232cbb70f1
-    - d03848d2-09dc-48d4-a555-35bc47422240: d1d4271c-8309-4f5f-b5ee-8899467948d4
-    - e1de7fe9-e737-42ee-967b-28b8d787fe8f: d235a6ed-ed70-4864-a9d5-b6c29cf7c4ea
-    - ea2aec5a-eb42-47c9-bdee-6625395282a7: 3395639a-6c3b-4e62-b978-76dee2a77712
-    - f184360e-8dde-4ade-b1f3-b4fb6ad565a4: 5f36a178-85bb-4838-a889-82e73eba1238
-  SourceState: !<own> 2e8fc746-3ef2-4551-a138-3d650b67edbd
-- !<RenderMeshVisual/d1d4271c-8309-4f5f-b5ee-8899467948d4>
+- !<RenderMeshVisual/2ed3e5c2-3369-44fb-8753-5703e71889e2>
   PrefabRemaps:
     []
   Name: component_0
@@ -123,7 +55,75 @@
       receiverLayers: 1
     Material: !<reference> 00000000-0000-0000-0000-000000000000
     HideFromCamera: false
-- !<BodyComponent/d235a6ed-ed70-4864-a9d5-b6c29cf7c4ea>
+- !<SceneObject/50ff219f-2c27-4451-9108-bd44a4e7818d>
+  PrefabRemaps:
+    []
+  Name: YellowHat
+  Enabled: true
+  Layers: 8
+  LocalTransform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  Children:
+    - !<own> c1ba1875-e034-435b-8d83-46a39ec6b6b6
+  Components:
+    - !<own> d4a82f16-f922-43b5-90a5-a6a196aaea74
+- !<ObjectPrefab/65e7167c-8f04-4825-a98e-fa92f9dab207>
+  PackagePath: ""
+  objects:
+    - !<own> 50ff219f-2c27-4451-9108-bd44a4e7818d
+  LazyLoading: false
+  RetainAssets: true
+- !<ObjectPrefabAssetData/bde88c34-910b-4260-b062-ad49b4b4a48d>
+  SourceRemaps:
+    - b589b00f-f29a-42b7-a2be-6eb0a6a10676: d4a82f16-f922-43b5-90a5-a6a196aaea74
+    - d03848d2-09dc-48d4-a555-35bc47422240: 2ed3e5c2-3369-44fb-8753-5703e71889e2
+    - e1de7fe9-e737-42ee-967b-28b8d787fe8f: de23c482-8f1c-4815-b71f-e0fff1c2cef0
+    - ea2aec5a-eb42-47c9-bdee-6625395282a7: c1ba1875-e034-435b-8d83-46a39ec6b6b6
+    - f184360e-8dde-4ade-b1f3-b4fb6ad565a4: 50ff219f-2c27-4451-9108-bd44a4e7818d
+  SourceState: !<own> 65e7167c-8f04-4825-a98e-fa92f9dab207
+- !<SceneObject/c1ba1875-e034-435b-8d83-46a39ec6b6b6>
+  PrefabRemaps:
+    []
+  Name: hat
+  Enabled: true
+  Layers: 1
+  LocalTransform:
+    position: {x: 0.034360, y: 18.085104, z: 0.171820}
+    rotation: {x: -7.912527, y: 0.000000, z: 0.000000}
+    scale: {x: 0.933776, y: 0.869694, z: 0.915467}
+    hasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2ed3e5c2-3369-44fb-8753-5703e71889e2
+    - !<own> de23c482-8f1c-4815-b71f-e0fff1c2cef0
+- !<BodyComponent/d4a82f16-f922-43b5-90a5-a6a196aaea74>
+  PrefabRemaps:
+    []
+  Name: Physics Body
+  Enabled: true
+  Shape: !<Sphere/00000000-0000-0000-0000-000000000000>
+    FitVisual: true
+    Radius: 6.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+  Dynamic: true
+  BodySetting: Density
+  BodySettingValue: 1.000000
+  Damping: 0.150000
+  AngularDamping: 0.000000
+- !<BodyComponent/de23c482-8f1c-4815-b71f-e0fff1c2cef0>
   PrefabRemaps:
     []
   Name: Physics Body

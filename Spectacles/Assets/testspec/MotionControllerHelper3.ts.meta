@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/747fc3bc-d15b-4379-9cd5-ca869857756f>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4fd78bb7-419c-45d4-a232-d4afbdf88efd
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4fd78bb7-419c-45d4-a232-d4afbdf88efd
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 5b38840c-36c5-4d38-8a6e-9fe1a7a40980
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/baef5c3e-2fd1-440f-9aba-7c4eaa8cea8c>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/5b38840c-36c5-4d38-8a6e-9fe1a7a40980>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    audio: false
+    catchingGame: false
+    childCollider: false
+    childObject: false
+    textUI: false
+    trailEffectPrefab: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - childObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      childCollider: !<reference.ColliderComponent> 00000000-0000-0000-0000-000000000000
+      trailEffectPrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      audio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      textUI: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      catchingGame: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject childObject
+    - // @input Component.ColliderComponent childCollider
+    - // @input SceneObject catchingGame
+    - // @input Asset.ObjectPrefab trailEffectPrefab
+    - // @input Component.AudioComponent audio
+    - // @input Component.Text textUI

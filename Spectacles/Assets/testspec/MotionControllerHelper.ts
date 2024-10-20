@@ -9,13 +9,7 @@ export class MotionControllerHelper extends BaseScriptComponent {
   childObject: SceneObject;
 
   @input 
-  childCollider: ColliderComponent
-
-  // @input
-  // batObject: SceneObject;
-
-  // @input 
-  // batCollider: ColliderComponent
+  childCollider: ColliderComponent;
 
   @input
   treasureBound: SceneObject;

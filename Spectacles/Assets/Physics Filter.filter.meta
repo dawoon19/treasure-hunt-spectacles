@@ -1,0 +1,14 @@
+- !<AssetImportMetadata/29aae69f-02e6-43a9-a9d0-cc7ffc6e4086>
+  ImportedAssetIds:
+    Filter: !<reference> c5e9f675-ccce-49fa-9e2f-d498f7ba3452
+  ImporterName: FilterImporter
+  PrimaryAsset: !<reference> c5e9f675-ccce-49fa-9e2f-d498f7ba3452
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/d5b93586-d938-45cc-801a-dcad2a6df223>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
