@@ -35,14 +35,14 @@
   ScriptTypesHidden:
     {}
   DefaultScriptInputs:
-    - spawnScript: !<MappingBased.SpawnTreasureInWorld> 00000000-0000-0000-0000-000000000000
-      moneyChest: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+    - moneyChest: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       pinata: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
       minigame: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      detector: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spawnScript: !<MappingBased.SpawnTreasureInWorld> 00000000-0000-0000-0000-000000000000
       detectorScript: !<MappingBased.MotionControllerHelper> 00000000-0000-0000-0000-000000000000
       pinataScript: !<MappingBased.MotionControllerHelper2> 00000000-0000-0000-0000-000000000000
       minigameScript: !<MappingBased.MotionControllerHelper3> 00000000-0000-0000-0000-000000000000
-      detector: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
   ScriptTypes:
     -
       {}

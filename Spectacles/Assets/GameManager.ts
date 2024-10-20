@@ -41,6 +41,7 @@ export class GameManager extends BaseScriptComponent {
         //}
         
         //print(this.spawnScript.completed);
+        // print(this.minigameScript.getTaskCompleted());
         this.spawnScript.targetObject = this.moneyChest;
         this.spawnScript.chooseTreasurePosition();
         this.createEvent("UpdateEvent").bind(this.onUpdate.bind(this));
