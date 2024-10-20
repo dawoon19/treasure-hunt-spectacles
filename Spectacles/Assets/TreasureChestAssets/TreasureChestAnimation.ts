@@ -16,9 +16,7 @@ export class SpawnTreasureAnimation extends BaseScriptComponent {
     createObjectsFromPrefab( trailEffectPrefab:ObjectPrefab, chestPrefab:ObjectPrefab, sparklesPrefab:ObjectPrefab) {
         if (trailEffectPrefab && chestPrefab) {
             var trailEffect = trailEffectPrefab.instantiate(this.getSceneObject());
-            trailEffect.getTransform().setWorldPosition(new vec3(0,0,-50));
             var chest = chestPrefab.instantiate(this.getSceneObject());
-            chest.getTransform().setWorldPosition(new vec3(0,0,-50));
             var sparkles = sparklesPrefab.instantiate(this.getSceneObject());
             print("we did it.")
         }

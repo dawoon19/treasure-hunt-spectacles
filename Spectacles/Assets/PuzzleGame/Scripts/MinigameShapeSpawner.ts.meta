@@ -1,0 +1,36 @@
+- !<AssetImportMetadata/92bc536e-ba43-4913-94e3-90b3a05c4740>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 324499c4-8d2b-4f18-9538-f569ad09d268
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 324499c4-8d2b-4f18-9538-f569ad09d268
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  AssetDataMap:
+    TypeScriptAsset: !<own> 84f8c17d-c952-4b08-9ee1-860e1fb5637e
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings/bed44d44-2b83-4d4e-aad1-41a6c1b7c502>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/84f8c17d-c952-4b08-9ee1-860e1fb5637e>
+  SvgIcon: ""
+  Description: ""
+  InternalVersion: 0
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00000000-0000-0000-0000-000000000000
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  CurrentVisibility: Editable
+  MaxVisibility: Editable
+  ScriptInputsHidden:
+    shapePrefab: false
+  ScriptTypesHidden:
+    {}
+  DefaultScriptInputs:
+    - shapePrefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @input Asset.ObjectPrefab[] shapePrefab"
